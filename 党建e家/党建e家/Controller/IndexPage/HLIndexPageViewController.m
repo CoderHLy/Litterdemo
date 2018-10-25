@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"何龙毅";
+    self.navigationController.title = @"何龙毅dashadiao";
     // Do any additional setup after loading the view.
 }
 
