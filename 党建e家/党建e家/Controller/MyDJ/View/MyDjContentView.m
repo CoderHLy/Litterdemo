@@ -10,6 +10,23 @@
 
 @implementation MyDjContentView
 
-
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self)
+    {
+        //左边小图标
+        _leftImageView = [[UIImageView alloc] init];
+        _leftImageView.image = [UIImage imageNamed:@""];
+        [self addSubview:_leftImageView];
+        [_leftImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.left.equalTo(10);
+            make.width.height.equalTo(30);
+            
+            
+        }];
+    }
+    return self;
+}
 
 @end

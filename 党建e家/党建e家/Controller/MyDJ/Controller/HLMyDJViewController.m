@@ -30,9 +30,10 @@
 {
     _djHeadView = [[MyDjHeadView alloc] initWithFrame:CGRectMake(0, 65, SCREENWIDTH, 180)];
     _djHeadView.backgroundColor = [UIColor blueColor];
+    __weak typeof(self) weakSelf = self;
     _djHeadView.djBlock = ^(MyDjHeadView * _Nonnull headView) {
         //跳入登录页面
-        [self.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
+        [weakSelf.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
     };
     [self.view addSubview:_djHeadView];
 }

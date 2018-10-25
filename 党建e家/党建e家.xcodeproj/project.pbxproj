@@ -31,6 +31,9 @@
 		FECE07CD2181EC7700397BA1 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07CC2181EC7700397BA1 /* MyDjContentView.m */; };
 		FECE07D02181F13E00397BA1 /* LoGinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07CE2181F13E00397BA1 /* LoGinViewController.m */; };
 		FECE07D32181F1BB00397BA1 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07D12181F1BA00397BA1 /* View.m */; };
+		FECE07D72181F2BC00397BA1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FECE07D42181F2BC00397BA1 /* logo.png */; };
+		FECE07D82181F2BC00397BA1 /* 登录框.png in Resources */ = {isa = PBXBuildFile; fileRef = FECE07D52181F2BC00397BA1 /* 登录框.png */; };
+		FECE07D92181F2BC00397BA1 /* 登录btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FECE07D62181F2BC00397BA1 /* 登录btn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +80,9 @@
 		FECE07CF2181F13E00397BA1 /* LoGinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoGinViewController.h; sourceTree = "<group>"; };
 		FECE07D12181F1BA00397BA1 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		FECE07D22181F1BA00397BA1 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		FECE07D42181F2BC00397BA1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FECE07D52181F2BC00397BA1 /* 登录框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录框.png"; sourceTree = "<group>"; };
+		FECE07D62181F2BC00397BA1 /* 登录btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录btn.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,9 @@
 		704BA7312181693400C9703E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FECE07D52181F2BC00397BA1 /* 登录框.png */,
+				FECE07D62181F2BC00397BA1 /* 登录btn.png */,
+				FECE07D42181F2BC00397BA1 /* logo.png */,
 				7013A7F7218177080034BA8F /* msg_gray.png */,
 				7013A7F9218177080034BA8F /* msg_red.png */,
 				7013A7F6218177080034BA8F /* party_gray.png */,
@@ -343,12 +352,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECE07D82181F2BC00397BA1 /* 登录框.png in Resources */,
 				7013A800218177080034BA8F /* vip_gray.png in Resources */,
 				704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */,
 				7013A7F4218176370034BA8F /* Assets.xcassets in Resources */,
+				FECE07D92181F2BC00397BA1 /* 登录btn.png in Resources */,
 				7013A7FB218177080034BA8F /* party_red.png in Resources */,
 				704BA59C2181520700C9703E /* Main.storyboard in Resources */,
 				7013A7FE218177080034BA8F /* vip_red.png in Resources */,
+				FECE07D72181F2BC00397BA1 /* logo.png in Resources */,
 				7013A7FD218177080034BA8F /* msg_gray.png in Resources */,
 				7013A7FC218177080034BA8F /* party_gray.png in Resources */,
 				7013A7FF218177080034BA8F /* msg_red.png in Resources */,
