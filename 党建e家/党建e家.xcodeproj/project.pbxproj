@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		28706FFE9936FEDEDABCC7C7 /* libPods-党建e家.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 890AF5881B3239055776D914 /* libPods-党建e家.a */; };
+		3EB5D94C2181CD5700A9B091 /* LoGinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5D94B2181CD5700A9B091 /* LoGinViewController.m */; };
+		3EB5D9502181CEED00A9B091 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB5D94F2181CEED00A9B091 /* View.m */; };
+		3EB5D9532181E13800A9B091 /* 登录框.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5D9512181E13800A9B091 /* 登录框.png */; };
+		3EB5D9542181E13800A9B091 /* 登录btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5D9522181E13800A9B091 /* 登录btn.png */; };
+		3EB5D9562181E24A00A9B091 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB5D9552181E24A00A9B091 /* logo.png */; };
 		7013A7F4218176370034BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F3218176370034BA8F /* Assets.xcassets */; };
 		7013A7FB218177080034BA8F /* party_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F5218177080034BA8F /* party_red.png */; };
 		7013A7FC218177080034BA8F /* party_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F6218177080034BA8F /* party_gray.png */; };
@@ -29,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EB5D94A2181CD5700A9B091 /* LoGinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoGinViewController.h; sourceTree = "<group>"; };
+		3EB5D94B2181CD5700A9B091 /* LoGinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoGinViewController.m; sourceTree = "<group>"; };
+		3EB5D94E2181CEED00A9B091 /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		3EB5D94F2181CEED00A9B091 /* View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		3EB5D9512181E13800A9B091 /* 登录框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录框.png"; sourceTree = "<group>"; };
+		3EB5D9522181E13800A9B091 /* 登录btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录btn.png"; sourceTree = "<group>"; };
+		3EB5D9552181E24A00A9B091 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		48A0F76B94AF2BB611ABD534 /* Pods-党建e家.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.debug.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.debug.xcconfig"; sourceTree = "<group>"; };
 		7013A7F3218176370034BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7013A7F5218177080034BA8F /* party_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party_red.png; sourceTree = "<group>"; };
@@ -76,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EB5D94D2181CE9500A9B091 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				3EB5D94E2181CEED00A9B091 /* View.h */,
+				3EB5D94F2181CEED00A9B091 /* View.m */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
 		4B9FFCD7ED6965F6B2D9601A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +205,9 @@
 		704BA7312181693400C9703E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3EB5D9552181E24A00A9B091 /* logo.png */,
+				3EB5D9512181E13800A9B091 /* 登录框.png */,
+				3EB5D9522181E13800A9B091 /* 登录btn.png */,
 				7013A7F7218177080034BA8F /* msg_gray.png */,
 				7013A7F9218177080034BA8F /* msg_red.png */,
 				7013A7F6218177080034BA8F /* party_gray.png */,
@@ -225,6 +249,7 @@
 		704BA8AC21816E2200C9703E /* MyDJ */ = {
 			isa = PBXGroup;
 			children = (
+				3EB5D94D2181CE9500A9B091 /* Weight */,
 				708E56D52181BC9B00893311 /* Controller */,
 			);
 			path = MyDJ;
@@ -242,8 +267,10 @@
 		708E56D52181BC9B00893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
 				708E56D72181BC9B00893311 /* HLMyDJViewController.h */,
+				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
+				3EB5D94A2181CD5700A9B091 /* LoGinViewController.h */,
+				3EB5D94B2181CD5700A9B091 /* LoGinViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -335,13 +362,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7013A800218177080034BA8F /* vip_gray.png in Resources */,
+				3EB5D9542181E13800A9B091 /* 登录btn.png in Resources */,
 				704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */,
 				7013A7F4218176370034BA8F /* Assets.xcassets in Resources */,
 				7013A7FB218177080034BA8F /* party_red.png in Resources */,
 				704BA59C2181520700C9703E /* Main.storyboard in Resources */,
 				7013A7FE218177080034BA8F /* vip_red.png in Resources */,
 				7013A7FD218177080034BA8F /* msg_gray.png in Resources */,
+				3EB5D9562181E24A00A9B091 /* logo.png in Resources */,
 				7013A7FC218177080034BA8F /* party_gray.png in Resources */,
+				3EB5D9532181E13800A9B091 /* 登录框.png in Resources */,
 				7013A7FF218177080034BA8F /* msg_red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +424,7 @@
 			files = (
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
+				3EB5D94C2181CD5700A9B091 /* LoGinViewController.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
@@ -401,6 +432,7 @@
 				708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,
+				3EB5D9502181CEED00A9B091 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "HLMyDJViewController.h"
-
+#import "LoGinViewController.h"
 @interface HLMyDJViewController ()
 
 @end
