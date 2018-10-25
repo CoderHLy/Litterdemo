@@ -21,10 +21,11 @@
 		704BA5A42181520800C9703E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA5A32181520800C9703E /* main.m */; };
 		704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA8A521816DAE00C9703E /* HLNavigationViewController.m */; };
 		704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA8A821816DCB00C9703E /* HLTabBarViewController.m */; };
-		704BA8AF21816E6400C9703E /* HLIndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA8AE21816E6400C9703E /* HLIndexPageViewController.m */; };
-		704BA8B221816E7500C9703E /* HLNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA8B121816E7500C9703E /* HLNotificationViewController.m */; };
-		704BA8B521816E8400C9703E /* HLMyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA8B421816E8400C9703E /* HLMyDJViewController.m */; };
 		708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */; };
+		FEB48AB52181BC8E00B22F50 /* HLNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB48AB42181BC8E00B22F50 /* HLNotificationViewController.m */; };
+		FEB48AB92181BCA400B22F50 /* HLIndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB48AB82181BCA400B22F50 /* HLIndexPageViewController.m */; };
+		FEB48ABD2181BCCA00B22F50 /* HLMyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB48ABC2181BCCA00B22F50 /* HLMyDJViewController.m */; };
+		FEB48AC42181C1A600B22F50 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB48AC32181C1A600B22F50 /* MyDjHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,18 +48,20 @@
 		704BA8A521816DAE00C9703E /* HLNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNavigationViewController.m; sourceTree = "<group>"; };
 		704BA8A721816DCB00C9703E /* HLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTabBarViewController.h; sourceTree = "<group>"; };
 		704BA8A821816DCB00C9703E /* HLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTabBarViewController.m; sourceTree = "<group>"; };
-		704BA8AD21816E6400C9703E /* HLIndexPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLIndexPageViewController.h; sourceTree = "<group>"; };
-		704BA8AE21816E6400C9703E /* HLIndexPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLIndexPageViewController.m; sourceTree = "<group>"; };
-		704BA8B021816E7500C9703E /* HLNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLNotificationViewController.h; sourceTree = "<group>"; };
-		704BA8B121816E7500C9703E /* HLNotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNotificationViewController.m; sourceTree = "<group>"; };
-		704BA8B321816E8400C9703E /* HLMyDJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLMyDJViewController.h; sourceTree = "<group>"; };
-		704BA8B421816E8400C9703E /* HLMyDJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMyDJViewController.m; sourceTree = "<group>"; };
 		704BA8B621816F5100C9703E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		708E56C72181996C00893311 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
 		708E56C92181A02800893311 /* UIViewController+UIViewController_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewController_Category.h"; sourceTree = "<group>"; };
 		708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewController_Category.m"; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB48AB32181BC8E00B22F50 /* HLNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNotificationViewController.h; sourceTree = "<group>"; };
+		FEB48AB42181BC8E00B22F50 /* HLNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNotificationViewController.m; sourceTree = "<group>"; };
+		FEB48AB72181BCA400B22F50 /* HLIndexPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLIndexPageViewController.h; sourceTree = "<group>"; };
+		FEB48AB82181BCA400B22F50 /* HLIndexPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLIndexPageViewController.m; sourceTree = "<group>"; };
+		FEB48ABB2181BCCA00B22F50 /* HLMyDJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMyDJViewController.h; sourceTree = "<group>"; };
+		FEB48ABC2181BCCA00B22F50 /* HLMyDJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMyDJViewController.m; sourceTree = "<group>"; };
+		FEB48AC22181C1A600B22F50 /* MyDjHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDjHeadView.h; sourceTree = "<group>"; };
+		FEB48AC32181C1A600B22F50 /* MyDjHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDjHeadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				704BA7312181693400C9703E /* Source */,
-				704BA5B0218166BF00C9703E /* Lib */,
 				704BA5AE218166A300C9703E /* BaseClass */,
 				704BA5AD2181669B00C9703E /* Controller */,
-				704BA5AC2181669300C9703E /* View */,
-				704BA5AB2181668D00C9703E /* Model */,
 				704BA5AA2181668400C9703E /* Tools */,
 				704BA5942181520700C9703E /* AppDelegate.h */,
 				7013A7F3218176370034BA8F /* Assets.xcassets */,
@@ -139,20 +139,6 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		704BA5AB2181668D00C9703E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		704BA5AC2181669300C9703E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		704BA5AD2181669B00C9703E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,13 +155,6 @@
 				704BA8A321816D6C00C9703E /* NavigationAndTabBar */,
 			);
 			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		704BA5B0218166BF00C9703E /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		704BA7312181693400C9703E /* Source */ = {
@@ -205,8 +184,7 @@
 		704BA8AA21816DD400C9703E /* IndexPage */ = {
 			isa = PBXGroup;
 			children = (
-				704BA8AD21816E6400C9703E /* HLIndexPageViewController.h */,
-				704BA8AE21816E6400C9703E /* HLIndexPageViewController.m */,
+				FEB48AB62181BCA400B22F50 /* Controller */,
 			);
 			path = IndexPage;
 			sourceTree = "<group>";
@@ -214,8 +192,7 @@
 		704BA8AB21816DEE00C9703E /* Notification */ = {
 			isa = PBXGroup;
 			children = (
-				704BA8B021816E7500C9703E /* HLNotificationViewController.h */,
-				704BA8B121816E7500C9703E /* HLNotificationViewController.m */,
+				FEB48AB22181BC8E00B22F50 /* Controller */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -223,8 +200,8 @@
 		704BA8AC21816E2200C9703E /* MyDJ */ = {
 			isa = PBXGroup;
 			children = (
-				704BA8B321816E8400C9703E /* HLMyDJViewController.h */,
-				704BA8B421816E8400C9703E /* HLMyDJViewController.m */,
+				FEB48ABE2181C16600B22F50 /* View */,
+				FEB48ABA2181BCCA00B22F50 /* Controller */,
 			);
 			path = MyDJ;
 			sourceTree = "<group>";
@@ -236,6 +213,42 @@
 				708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		FEB48AB22181BC8E00B22F50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEB48AB32181BC8E00B22F50 /* HLNotificationViewController.h */,
+				FEB48AB42181BC8E00B22F50 /* HLNotificationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEB48AB62181BCA400B22F50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEB48AB72181BCA400B22F50 /* HLIndexPageViewController.h */,
+				FEB48AB82181BCA400B22F50 /* HLIndexPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEB48ABA2181BCCA00B22F50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEB48ABB2181BCCA00B22F50 /* HLMyDJViewController.h */,
+				FEB48ABC2181BCCA00B22F50 /* HLMyDJViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FEB48ABE2181C16600B22F50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEB48AC22181C1A600B22F50 /* MyDjHeadView.h */,
+				FEB48AC32181C1A600B22F50 /* MyDjHeadView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,14 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704BA8B521816E8400C9703E /* HLMyDJViewController.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
+				FEB48ABD2181BCCA00B22F50 /* HLMyDJViewController.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
-				704BA8AF21816E6400C9703E /* HLIndexPageViewController.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
-				704BA8B221816E7500C9703E /* HLNotificationViewController.m in Sources */,
+				FEB48AB52181BC8E00B22F50 /* HLNotificationViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,
+				FEB48AC42181C1A600B22F50 /* MyDjHeadView.m in Sources */,
+				FEB48AB92181BCA400B22F50 /* HLIndexPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
