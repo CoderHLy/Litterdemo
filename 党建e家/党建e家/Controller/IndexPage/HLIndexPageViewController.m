@@ -16,12 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< HEAD
+    
     [self initHeaderView];
-=======
+    
     self.navigationController.title = @"首页";
     // Do any additional setup after loading the view.
->>>>>>> 557d8197ff28adda5e79e272d3f643d7f85220eb
 }
 
 -(void)initHeaderView
