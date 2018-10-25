@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HLIndexBodyView.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HLIndexPageViewController : UIViewController
+@interface HLIndexPageViewController : UIViewController<HLIndexBodyViewDelegate>
 
 @end
 
