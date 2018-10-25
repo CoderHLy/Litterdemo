@@ -16,20 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-<<<<<<< .merge_file_cMppm5
-    
-    [self initHeaderView];
-    
-    self.navigationController.title = @"首页";
-    // Do any additional setup after loading the view.
-=======
 
     [self initHeaderView];
 
     self.navigationController.title = @"首页";
     // Do any additional setup after loading the view.
 
->>>>>>> .merge_file_mIKVkK
 }
 
 -(void)initHeaderView
