@@ -19,6 +19,9 @@
 		701E30D62181FA3300FEEA81 /* 登录btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D32181FA3300FEEA81 /* 登录btn.png */; };
 		701E30D72181FA3300FEEA81 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D42181FA3300FEEA81 /* logo.png */; };
 		701E30D82181FA3300FEEA81 /* 登录框.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D52181FA3300FEEA81 /* 登录框.png */; };
+		701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E30DB2181FE7800FEEA81 /* HLBannerViewModel.m */; };
+		701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E30DF218200D700FEEA81 /* HLBannerModel.m */; };
+		701E30E32182021300FEEA81 /* AssignToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E30E12182021300FEEA81 /* AssignToObject.m */; };
 		704BA5962181520700C9703E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA5952181520700C9703E /* AppDelegate.m */; };
 		704BA59C2181520700C9703E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704BA59A2181520700C9703E /* Main.storyboard */; };
 		704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704BA59F2181520800C9703E /* LaunchScreen.storyboard */; };
@@ -54,6 +57,12 @@
 		701E30D32181FA3300FEEA81 /* 登录btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录btn.png"; sourceTree = "<group>"; };
 		701E30D42181FA3300FEEA81 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		701E30D52181FA3300FEEA81 /* 登录框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录框.png"; sourceTree = "<group>"; };
+		701E30DA2181FE7800FEEA81 /* HLBannerViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBannerViewModel.h; sourceTree = "<group>"; };
+		701E30DB2181FE7800FEEA81 /* HLBannerViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBannerViewModel.m; sourceTree = "<group>"; };
+		701E30DE218200D700FEEA81 /* HLBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBannerModel.h; sourceTree = "<group>"; };
+		701E30DF218200D700FEEA81 /* HLBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBannerModel.m; sourceTree = "<group>"; };
+		701E30E12182021300FEEA81 /* AssignToObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignToObject.m; sourceTree = "<group>"; };
+		701E30E22182021300FEEA81 /* AssignToObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignToObject.h; sourceTree = "<group>"; };
 		704BA5912181520700C9703E /* 党建e家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "党建e家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		704BA5942181520700C9703E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		704BA5952181520700C9703E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +136,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		701E30D92181FE5E00FEEA81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				701E30DA2181FE7800FEEA81 /* HLBannerViewModel.h */,
+				701E30DB2181FE7800FEEA81 /* HLBannerViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		701E30DD218200C400FEEA81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				701E30DE218200D700FEEA81 /* HLBannerModel.h */,
+				701E30DF218200D700FEEA81 /* HLBannerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		704BA5882181520700C9703E = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +197,8 @@
 		704BA5AA2181668400C9703E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				701E30E22182021300FEEA81 /* AssignToObject.h */,
+				701E30E12182021300FEEA81 /* AssignToObject.m */,
 				708E56C72181996C00893311 /* CommonDefine.h */,
 				708E56C821819FA700893311 /* Category */,
 			);
@@ -238,6 +267,8 @@
 		704BA8AA21816DD400C9703E /* IndexPage */ = {
 			isa = PBXGroup;
 			children = (
+				701E30DD218200C400FEEA81 /* Model */,
+				701E30D92181FE5E00FEEA81 /* ViewModel */,
 				708E56DD2181BD5D00893311 /* View */,
 				708E56D92181BCA300893311 /* Controller */,
 			);
@@ -460,6 +491,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
+				701E30E32182021300FEEA81 /* AssignToObject.m in Sources */,
+				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
+				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
 				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,

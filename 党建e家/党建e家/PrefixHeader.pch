@@ -15,6 +15,6 @@
 #import "Masonry.h"
 #import "AFNetworking.h"
 #import "Category.h"
-
+#import "AssignToObject.h"
 
 #endif /* PrefixHeader_pch */
