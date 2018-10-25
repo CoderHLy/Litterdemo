@@ -15,18 +15,55 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-        //左边小图标
-        _leftImageView = [[UIImageView alloc] init];
-        _leftImageView.image = [UIImage imageNamed:@""];
-        [self addSubview:_leftImageView];
-        [_leftImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.left.equalTo(10);
-            make.width.height.equalTo(30);
+        _imgArr = [NSArray arrayWithObjects:@"myInfo", @"integral", @"update_pwd", @"icon3", nil];
+        _labArr = [NSArray arrayWithObjects:@"个人信息", @"个人量化积分", @"修改密码", @"党费缴纳", nil];
+        
+        for (int i = 0; i < 4; ++i)
+        {
+            //左边小图标
+            _leftImageView = [UIImageView imageWithImage:_imgArr[i] subView:self];
+            [_leftImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(10 + 50 * i);
+                make.left.equalTo(10);
+                make.width.height.equalTo(30);
+            }];
             
+            //label
+            _textLab = [UILabel labelWithText:_labArr[i] alignment:NSTextAlignmentLeft textColor:[UIColor blackColor] font:16 superView:self];
+            _textLab.backgroundColor = [UIColor redColor];
+            [_textLab mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(10 + 50 * i);
+                make.left.equalTo(self.leftImageView.right).offset(10);
+                make.height.equalTo(30);
+                make.width.equalTo(180);
+            }];
             
-        }];
+            //右边箭头
+            _rightBtn = [UIButton buttonWithTag:0 Target:self selector:@selector(jumpVC) superView:self];
+            [_rightBtn setImage:[UIImage imageNamed:@"jiantou"] forState:UIControlStateNormal];
+            [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(15 + 50 * i);
+                make.right.equalTo(-15);
+                make.height.equalTo(20);
+                make.width.equalTo(15);
+            }];
+            
+            //线
+            _lineView = [UIImageView imageWithImage:@"" subView:self];
+            _lineView.backgroundColor = [UIColor grayColor];
+            [_lineView mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(50 + 50 * i);
+                make.left.equalTo(0);
+                make.width.equalTo(SCREENWIDTH);
+                make.height.equalTo(0.5);
+            }];
+        }
     }
     return self;
 }
 
+-(void)jumpVC
+{
+    NSLog(@"tag is %ld", (long)_rightBtn.tag);
+}
 @end

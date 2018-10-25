@@ -20,4 +20,14 @@
     imageView.userInteractionEnabled = touch;
     return imageView;
 }
+
+#pragma mark WeiSheng，快速创建imageView
++(UIImageView *)imageWithImage:(NSString *)imgName
+                       subView:(UIView *)view
+{
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.image = [UIImage imageNamed:imgName];
+    [view addSubview:imageView];
+    return imageView;
+}
 @end

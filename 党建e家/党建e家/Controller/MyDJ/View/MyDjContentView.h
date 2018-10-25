@@ -14,7 +14,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,strong) UIImageView *leftImageView;
 @property (nonatomic,strong) UILabel * textLab;
-@property (nonatomic,strong) UIImageView *rightImgView;
+@property (nonatomic,strong) UIButton *rightBtn;
+@property (nonatomic,strong) UIImageView *lineView;
+
+@property (nonatomic,strong) NSArray *imgArr;
+@property (nonatomic,strong) NSArray *labArr;
+
+@property (nonatomic,strong) UIButton *loginBtn;
 
 @end
 
