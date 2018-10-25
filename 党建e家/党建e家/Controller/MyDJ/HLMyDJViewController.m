@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.title = @"wodedangjian";
+    self.navigationController.title = @"我的党建";
 }
 
 /*
