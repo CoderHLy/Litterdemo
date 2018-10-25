@@ -8,24 +8,30 @@
 
 #import "HLIndexPageViewController.h"
 #import "HLMyDJViewController.h"
+#import "HLIndexBodyView.h"
 @interface HLIndexPageViewController ()
 
 @end
 
-@implementation HLIndexPageViewController
+@implementation HLIndexPageViewController{
+    HLIndexBodyView *_bodyView;
+    UIScrollView *_scrollView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.edgesForExtendedLayout = UIRectEdgeNone | UIRectEdgeBottom;
+    
     [self initHeaderView];
-
-    self.navigationController.title = @"首页";
+     
+    [self initBodyView];
     // Do any additional setup after loading the view.
 
 }
-
+#pragma mark - 设置导航栏样式
 -(void)initHeaderView
 {
+    self.navigationController.title = @"首页";
     //添加左侧logo
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -8, 130, 35)];
     imageView.image = [UIImage imageNamed:@"logo"];
@@ -40,5 +46,18 @@
 -(void)login
 {
     [self.navigationController pushViewController:[[HLMyDJViewController alloc] init] animated:YES];
+}
+
+#pragma mark - 设置轮播图
+
+#pragma mark - 设置bodyView
+-(void)initBodyView{
+    _bodyView = [[HLIndexBodyView alloc] init];
+    [self.view addSubview:_bodyView];
+    [_bodyView makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(0);
+        make.top.equalTo(0);
+        make.size.equalTo(CGSizeMake(SCREENWIDTH, SCREENHEIGHT * 5 / 8));
+    }];
 }
 @end
