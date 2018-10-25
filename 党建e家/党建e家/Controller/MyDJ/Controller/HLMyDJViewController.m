@@ -7,7 +7,11 @@
 //
 
 #import "HLMyDJViewController.h"
+<<<<<<< .merge_file_0CnqrG
+#import "LoGinViewController.h"
+=======
 #import "MyDjHeadView.h"
+>>>>>>> .merge_file_SjNLLs
 @interface HLMyDJViewController ()
 
 @property (nonatomic,strong) MyDjHeadView *djHeadView;
