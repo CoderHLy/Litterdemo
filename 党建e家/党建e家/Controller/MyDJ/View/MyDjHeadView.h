@@ -12,9 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MyDjHeadView : UIView
 
-@property (nonatomic,strong) UIView *backView;
-@property (nonatomic,strong) UIImageView *headImgView;
+@property (nonatomic,strong) UIImageView *backImgView;
+@property (nonatomic,strong) UIButton *headImgBtn;
 @property (nonatomic,strong) UILabel *userNameLab;
+
+typedef void(^MyDjHeadViewBlock)(MyDjHeadView *headView);
+@property (nonatomic,copy)MyDjHeadViewBlock djBlock;
 
 @end
 
