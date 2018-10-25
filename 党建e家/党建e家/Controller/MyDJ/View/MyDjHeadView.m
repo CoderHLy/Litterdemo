@@ -54,7 +54,6 @@
 //跳入登录页面
 -(void)jumpLogin
 {
-    NSLog(@"进入登录界面");
     if (_djBlock)
     {
         _djBlock(self);
