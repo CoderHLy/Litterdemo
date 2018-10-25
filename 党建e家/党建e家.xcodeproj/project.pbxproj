@@ -26,6 +26,10 @@
 		708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56DA2181BCA300893311 /* HLIndexPageViewController.m */; };
 		708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56DF2181BD8500893311 /* HLIndexBodyView.m */; };
 		708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56E32181C3FE00893311 /* HLNotificationViewController.m */; };
+		708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56EA2181EA2A00893311 /* UIButton+UIButton_Category.m */; };
+		708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56EE2181F02A00893311 /* UIImageView+UIImageView_Category.m */; };
+		708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F12181F26200893311 /* UILabel+UILabel_Category.m */; };
+		708E56F52181F63A00893311 /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F32181F63A00893311 /* SLBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +64,15 @@
 		708E56DF2181BD8500893311 /* HLIndexBodyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLIndexBodyView.m; sourceTree = "<group>"; };
 		708E56E22181C3FE00893311 /* HLNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNotificationViewController.h; sourceTree = "<group>"; };
 		708E56E32181C3FE00893311 /* HLNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNotificationViewController.m; sourceTree = "<group>"; };
+		708E56E92181EA2A00893311 /* UIButton+UIButton_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButton_Category.h"; sourceTree = "<group>"; };
+		708E56EA2181EA2A00893311 /* UIButton+UIButton_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButton_Category.m"; sourceTree = "<group>"; };
+		708E56EC2181EFD900893311 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		708E56ED2181F02A00893311 /* UIImageView+UIImageView_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_Category.h"; sourceTree = "<group>"; };
+		708E56EE2181F02A00893311 /* UIImageView+UIImageView_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_Category.m"; sourceTree = "<group>"; };
+		708E56F02181F26200893311 /* UILabel+UILabel_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+UILabel_Category.h"; sourceTree = "<group>"; };
+		708E56F12181F26200893311 /* UILabel+UILabel_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabel_Category.m"; sourceTree = "<group>"; };
+		708E56F32181F63A00893311 /* SLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBannerView.m; sourceTree = "<group>"; };
+		708E56F42181F63A00893311 /* SLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBannerView.h; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,11 +127,11 @@
 		704BA5932181520700C9703E /* 党建e家 */ = {
 			isa = PBXGroup;
 			children = (
+				708E56E52181C77600893311 /* View */,
 				704BA7312181693400C9703E /* Source */,
 				704BA5B0218166BF00C9703E /* Lib */,
 				704BA5AE218166A300C9703E /* BaseClass */,
 				704BA5AD2181669B00C9703E /* Controller */,
-				704BA5AC2181669300C9703E /* View */,
 				704BA5AB2181668D00C9703E /* Model */,
 				704BA5AA2181668400C9703E /* Tools */,
 				704BA5942181520700C9703E /* AppDelegate.h */,
@@ -147,13 +160,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		704BA5AC2181669300C9703E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		704BA5AD2181669B00C9703E /* Controller */ = {
@@ -233,8 +239,15 @@
 		708E56C821819FA700893311 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				708E56EC2181EFD900893311 /* Category.h */,
 				708E56C92181A02800893311 /* UIViewController+UIViewController_Category.h */,
 				708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */,
+				708E56E92181EA2A00893311 /* UIButton+UIButton_Category.h */,
+				708E56EA2181EA2A00893311 /* UIButton+UIButton_Category.m */,
+				708E56ED2181F02A00893311 /* UIImageView+UIImageView_Category.h */,
+				708E56EE2181F02A00893311 /* UIImageView+UIImageView_Category.m */,
+				708E56F02181F26200893311 /* UILabel+UILabel_Category.h */,
+				708E56F12181F26200893311 /* UILabel+UILabel_Category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -251,8 +264,8 @@
 		708E56D92181BCA300893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				708E56DA2181BCA300893311 /* HLIndexPageViewController.m */,
 				708E56DB2181BCA300893311 /* HLIndexPageViewController.h */,
+				708E56DA2181BCA300893311 /* HLIndexPageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,6 +286,15 @@
 				708E56E32181C3FE00893311 /* HLNotificationViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		708E56E52181C77600893311 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				708E56F42181F63A00893311 /* SLBannerView.h */,
+				708E56F32181F63A00893311 /* SLBannerView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,13 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
+				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
+				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
 				708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */,
+				708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,
 			);

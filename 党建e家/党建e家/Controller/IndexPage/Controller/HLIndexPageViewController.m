@@ -8,7 +8,7 @@
 
 #import "HLIndexPageViewController.h"
 #import "HLMyDJViewController.h"
-#import "HLIndexBodyView.h"
+
 @interface HLIndexPageViewController ()
 
 @end
@@ -23,7 +23,7 @@
     self.edgesForExtendedLayout = UIRectEdgeNone | UIRectEdgeBottom;
     
     [self initHeaderView];
-     
+    [self initScrollView];
     [self initBodyView];
     // Do any additional setup after loading the view.
 
@@ -49,15 +49,32 @@
 }
 
 #pragma mark - 设置轮播图
-
+-(void)initScrollView
+{
+    //初始化scrollView
+    _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT - 64)];
+    _scrollView.contentSize = CGSizeMake(SCREENWIDTH, SCREENHEIGHT * 5 / 8 + 220);
+    [self.view addSubview:_scrollView];
+}
 #pragma mark - 设置bodyView
 -(void)initBodyView{
     _bodyView = [[HLIndexBodyView alloc] init];
-    [self.view addSubview:_bodyView];
+    _bodyView.delegate = self;
+    [_scrollView addSubview:_bodyView];
     [_bodyView makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(0);
-        make.top.equalTo(0);
+        make.top.equalTo(220);
         make.size.equalTo(CGSizeMake(SCREENWIDTH, SCREENHEIGHT * 5 / 8));
     }];
+}
+
+#pragma mark - bodyView的delegate方法
+-(void)headerItemDidClicked:(NSInteger)tag
+{
+    NSLog(@"headerItem.tag = %ld", tag);
+}
+-(void)footerItemDidClicked:(NSInteger)tag
+{
+    NSLog(@"footerItem.tag = %ld", tag);
 }
 @end

@@ -14,9 +14,7 @@
 #import "CommonDefine.h"
 #import "Masonry.h"
 #import "AFNetworking.h"
-
-#pragma mark - 分类头文件
-#import "UIViewController+UIViewController_Category.h"
+#import "Category.h"
 
 
 #endif /* PrefixHeader_pch */
