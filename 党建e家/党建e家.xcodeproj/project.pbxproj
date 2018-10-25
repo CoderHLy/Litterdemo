@@ -29,6 +29,8 @@
 		FECE07C62181C68400397BA1 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07C52181C68400397BA1 /* MyDjHeadView.m */; };
 		FECE07CA2181DF9A00397BA1 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07C92181DF9A00397BA1 /* UILabel+WSLabel.m */; };
 		FECE07CD2181EC7700397BA1 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07CC2181EC7700397BA1 /* MyDjContentView.m */; };
+		FECE07D02181F13E00397BA1 /* LoGinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07CE2181F13E00397BA1 /* LoGinViewController.m */; };
+		FECE07D32181F1BB00397BA1 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07D12181F1BA00397BA1 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,10 @@
 		FECE07C92181DF9A00397BA1 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		FECE07CB2181EC7700397BA1 /* MyDjContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDjContentView.h; sourceTree = "<group>"; };
 		FECE07CC2181EC7700397BA1 /* MyDjContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDjContentView.m; sourceTree = "<group>"; };
+		FECE07CE2181F13E00397BA1 /* LoGinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoGinViewController.m; sourceTree = "<group>"; };
+		FECE07CF2181F13E00397BA1 /* LoGinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoGinViewController.h; sourceTree = "<group>"; };
+		FECE07D12181F1BA00397BA1 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		FECE07D22181F1BA00397BA1 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +236,8 @@
 		708E56D52181BC9B00893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FECE07CF2181F13E00397BA1 /* LoGinViewController.h */,
+				FECE07CE2181F13E00397BA1 /* LoGinViewController.m */,
 				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
 				708E56D72181BC9B00893311 /* HLMyDJViewController.h */,
 			);
@@ -266,6 +274,8 @@
 		FECE07C32181C68400397BA1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FECE07D22181F1BA00397BA1 /* View.h */,
+				FECE07D12181F1BA00397BA1 /* View.m */,
 				FECE07C42181C68400397BA1 /* MyDjHeadView.h */,
 				FECE07C52181C68400397BA1 /* MyDjHeadView.m */,
 				FECE07CB2181EC7700397BA1 /* MyDjContentView.h */,
@@ -391,8 +401,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECE07D32181F1BB00397BA1 /* View.m in Sources */,
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
+				FECE07D02181F13E00397BA1 /* LoGinViewController.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,

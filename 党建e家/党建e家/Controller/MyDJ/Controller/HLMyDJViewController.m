@@ -7,11 +7,11 @@
 //
 
 #import "HLMyDJViewController.h"
-<<<<<<< .merge_file_0CnqrG
+
 #import "LoGinViewController.h"
-=======
+
 #import "MyDjHeadView.h"
->>>>>>> .merge_file_SjNLLs
+
 @interface HLMyDJViewController ()
 
 @property (nonatomic,strong) MyDjHeadView *djHeadView;
@@ -32,7 +32,7 @@
     _djHeadView.backgroundColor = [UIColor blueColor];
     _djHeadView.djBlock = ^(MyDjHeadView * _Nonnull headView) {
         //跳入登录页面
-//        self.navigationController pushViewController:<#(nonnull UIViewController *)#> animated:<#(BOOL)#>
+        [self.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
     };
     [self.view addSubview:_djHeadView];
 }
