@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     //设置导航栏颜色
-    self.navigationBar.barTintColor = Color(27, 89, 169);
+    self.navigationBar.barTintColor = Color(182, 0, 10);
     
     //设置导航栏标题字体颜色
     self.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
@@ -35,8 +35,8 @@
         viewController.tabBarController.tabBar.hidden = YES;
         //导航返回按钮
         UIButton *leftBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
-        [leftBtn setImage:[UIImage imageNamed:@""] forState:(UIControlStateNormal)];
-        [leftBtn setImage:[UIImage imageNamed:@""] forState:(UIControlStateHighlighted)];
+        [leftBtn setImage:[UIImage imageNamed:@"news_back_btn"] forState:(UIControlStateNormal)];
+        [leftBtn setImage:[UIImage imageNamed:@"news_back_btn"] forState:(UIControlStateHighlighted)];
         [leftBtn addTarget:self action:@selector(leftBtnSelected) forControlEvents:(UIControlEventTouchUpInside)];
         leftBtn.frame = CGRectMake(0, 0, 25, 25);
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftBtn];
