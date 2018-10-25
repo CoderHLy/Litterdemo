@@ -23,7 +23,7 @@
         [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.left.equalTo(0);
             make.width.equalTo(SCREENWIDTH);
-            make.height.equalTo(180);
+            make.height.equalTo(160);
         }];
         _backImgView = imgView;
         _backImgView.userInteractionEnabled = YES;

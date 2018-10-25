@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 +(UIImageView *)imageName:(NSString *)name
                 superView:(UIView *)superView
                     touch:(BOOL)touch;
+
++(UIImageView *)imageWithImage:(NSString *)imgName
+                       subView:(UIView *)view;
 @end
 
 NS_ASSUME_NONNULL_END
