@@ -7,7 +7,7 @@
 //
 
 #import "HLIndexPageViewController.h"
-
+#import "HLMyDJViewController.h"
 @interface HLIndexPageViewController ()
 
 @end
@@ -16,18 +16,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self initHeaderView];
+
     self.navigationController.title = @"首页";
     // Do any additional setup after loading the view.
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)initHeaderView
+{
+    //添加左侧logo
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -8, 130, 35)];
+    imageView.image = [UIImage imageNamed:@"logo"];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:imageView];
+    
+    //添加登录按钮
+    UIButton *btn = [UIButton buttonWithType:(UIButtonTypeCustom)];
+    [btn setTitle:@"登录" forState:(UIControlStateNormal)];
+    [btn addTarget:self action:@selector(login) forControlEvents:(UIControlEventTouchUpInside)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
-*/
-
+-(void)login
+{
+    [self.navigationController pushViewController:[[HLMyDJViewController alloc] init] animated:YES];
+}
 @end
