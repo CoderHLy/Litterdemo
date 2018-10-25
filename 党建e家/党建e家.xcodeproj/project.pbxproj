@@ -15,6 +15,10 @@
 		7013A7FE218177080034BA8F /* vip_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F8218177080034BA8F /* vip_red.png */; };
 		7013A7FF218177080034BA8F /* msg_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F9218177080034BA8F /* msg_red.png */; };
 		7013A800218177080034BA8F /* vip_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7FA218177080034BA8F /* vip_gray.png */; };
+		701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701E30D02181F9FD00FEEA81 /* LoGinViewController.m */; };
+		701E30D62181FA3300FEEA81 /* 登录btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D32181FA3300FEEA81 /* 登录btn.png */; };
+		701E30D72181FA3300FEEA81 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D42181FA3300FEEA81 /* logo.png */; };
+		701E30D82181FA3300FEEA81 /* 登录框.png in Resources */ = {isa = PBXBuildFile; fileRef = 701E30D52181FA3300FEEA81 /* 登录框.png */; };
 		704BA5962181520700C9703E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 704BA5952181520700C9703E /* AppDelegate.m */; };
 		704BA59C2181520700C9703E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704BA59A2181520700C9703E /* Main.storyboard */; };
 		704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704BA59F2181520800C9703E /* LaunchScreen.storyboard */; };
@@ -30,6 +34,10 @@
 		708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56EE2181F02A00893311 /* UIImageView+UIImageView_Category.m */; };
 		708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F12181F26200893311 /* UILabel+UILabel_Category.m */; };
 		708E56F52181F63A00893311 /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F32181F63A00893311 /* SLBannerView.m */; };
+		708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F82181F75C00893311 /* MyDjContentView.m */; };
+		708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F92181F75C00893311 /* MyDjHeadView.m */; };
+		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
+		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +49,11 @@
 		7013A7F8218177080034BA8F /* vip_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip_red.png; sourceTree = "<group>"; };
 		7013A7F9218177080034BA8F /* msg_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg_red.png; sourceTree = "<group>"; };
 		7013A7FA218177080034BA8F /* vip_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip_gray.png; sourceTree = "<group>"; };
+		701E30D02181F9FD00FEEA81 /* LoGinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoGinViewController.m; sourceTree = "<group>"; };
+		701E30D12181F9FD00FEEA81 /* LoGinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoGinViewController.h; sourceTree = "<group>"; };
+		701E30D32181FA3300FEEA81 /* 登录btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录btn.png"; sourceTree = "<group>"; };
+		701E30D42181FA3300FEEA81 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		701E30D52181FA3300FEEA81 /* 登录框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录框.png"; sourceTree = "<group>"; };
 		704BA5912181520700C9703E /* 党建e家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "党建e家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		704BA5942181520700C9703E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		704BA5952181520700C9703E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +86,14 @@
 		708E56F12181F26200893311 /* UILabel+UILabel_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabel_Category.m"; sourceTree = "<group>"; };
 		708E56F32181F63A00893311 /* SLBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBannerView.m; sourceTree = "<group>"; };
 		708E56F42181F63A00893311 /* SLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBannerView.h; sourceTree = "<group>"; };
+		708E56F72181F75C00893311 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		708E56F82181F75C00893311 /* MyDjContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjContentView.m; sourceTree = "<group>"; };
+		708E56F92181F75C00893311 /* MyDjHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjHeadView.m; sourceTree = "<group>"; };
+		708E56FA2181F75C00893311 /* MyDjHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjHeadView.h; sourceTree = "<group>"; };
+		708E56FB2181F75C00893311 /* MyDjContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjContentView.h; sourceTree = "<group>"; };
+		708E56FC2181F75C00893311 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		708E57002181F77A00893311 /* UILabel+WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WSLabel.h"; sourceTree = "<group>"; };
+		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -190,6 +211,9 @@
 		704BA7312181693400C9703E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				701E30D52181FA3300FEEA81 /* 登录框.png */,
+				701E30D32181FA3300FEEA81 /* 登录btn.png */,
+				701E30D42181FA3300FEEA81 /* logo.png */,
 				7013A7F7218177080034BA8F /* msg_gray.png */,
 				7013A7F9218177080034BA8F /* msg_red.png */,
 				7013A7F6218177080034BA8F /* party_gray.png */,
@@ -231,6 +255,7 @@
 		704BA8AC21816E2200C9703E /* MyDJ */ = {
 			isa = PBXGroup;
 			children = (
+				708E56F62181F75C00893311 /* View */,
 				708E56D52181BC9B00893311 /* Controller */,
 			);
 			path = MyDJ;
@@ -239,6 +264,8 @@
 		708E56C821819FA700893311 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				708E57002181F77A00893311 /* UILabel+WSLabel.h */,
+				708E57012181F77A00893311 /* UILabel+WSLabel.m */,
 				708E56EC2181EFD900893311 /* Category.h */,
 				708E56C92181A02800893311 /* UIViewController+UIViewController_Category.h */,
 				708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */,
@@ -255,6 +282,8 @@
 		708E56D52181BC9B00893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				701E30D12181F9FD00FEEA81 /* LoGinViewController.h */,
+				701E30D02181F9FD00FEEA81 /* LoGinViewController.m */,
 				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
 				708E56D72181BC9B00893311 /* HLMyDJViewController.h */,
 			);
@@ -293,6 +322,19 @@
 			children = (
 				708E56F42181F63A00893311 /* SLBannerView.h */,
 				708E56F32181F63A00893311 /* SLBannerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		708E56F62181F75C00893311 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				708E56F72181F75C00893311 /* View.h */,
+				708E56F82181F75C00893311 /* MyDjContentView.m */,
+				708E56F92181F75C00893311 /* MyDjHeadView.m */,
+				708E56FA2181F75C00893311 /* MyDjHeadView.h */,
+				708E56FB2181F75C00893311 /* MyDjContentView.h */,
+				708E56FC2181F75C00893311 /* View.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -356,8 +398,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701E30D82181FA3300FEEA81 /* 登录框.png in Resources */,
 				7013A800218177080034BA8F /* vip_gray.png in Resources */,
 				704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */,
+				701E30D72181FA3300FEEA81 /* logo.png in Resources */,
+				701E30D62181FA3300FEEA81 /* 登录btn.png in Resources */,
 				7013A7F4218176370034BA8F /* Assets.xcassets in Resources */,
 				7013A7FB218177080034BA8F /* party_red.png in Resources */,
 				704BA59C2181520700C9703E /* Main.storyboard in Resources */,
@@ -415,9 +460,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
+				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
+				708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
@@ -425,7 +472,10 @@
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
 				708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */,
 				708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */,
+				708E56FF2181F75D00893311 /* View.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
+				708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */,
+				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
