@@ -361,11 +361,11 @@
 			isa = PBXGroup;
 			children = (
 				708E56F72181F75C00893311 /* View.h */,
-				708E56F82181F75C00893311 /* MyDjContentView.m */,
-				708E56F92181F75C00893311 /* MyDjHeadView.m */,
-				708E56FA2181F75C00893311 /* MyDjHeadView.h */,
-				708E56FB2181F75C00893311 /* MyDjContentView.h */,
 				708E56FC2181F75C00893311 /* View.m */,
+				708E56FA2181F75C00893311 /* MyDjHeadView.h */,
+				708E56F92181F75C00893311 /* MyDjHeadView.m */,
+				708E56FB2181F75C00893311 /* MyDjContentView.h */,
+				708E56F82181F75C00893311 /* MyDjContentView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
