@@ -30,7 +30,6 @@
             
             //label
             _textLab = [UILabel labelWithText:_labArr[i] alignment:NSTextAlignmentLeft textColor:[UIColor blackColor] font:16 superView:self];
-            _textLab.backgroundColor = [UIColor redColor];
             [_textLab mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(10 + 50 * i);
                 make.left.equalTo(self.leftImageView.right).offset(10);
@@ -39,7 +38,7 @@
             }];
             
             //右边箭头
-            _rightBtn = [UIButton buttonWithTag:0 Target:self selector:@selector(jumpVC) superView:self];
+            _rightBtn = [UIButton buttonWithTag:i Target:self selector:@selector(jumpVC:) superView:self];
             [_rightBtn setImage:[UIImage imageNamed:@"jiantou"] forState:UIControlStateNormal];
             [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(15 + 50 * i);
@@ -58,12 +57,36 @@
                 make.height.equalTo(0.5);
             }];
         }
+        
+        //登录按钮
+        _loginBtn = [UIButton buttonWithTag:00 Target:self selector:@selector(jumpLoginPage) superView:self];
+        _loginBtn.backgroundColor = [UIColor redColor];
+        _loginBtn.titleLabel.textColor = [UIColor whiteColor];
+        [_loginBtn setTitle:@"退出登录" forState:UIControlStateNormal];
+        _loginBtn.layer.cornerRadius = 5;
+        _loginBtn.layer.masksToBounds = YES;
+        [_loginBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(220);
+            make.left.equalTo(10);
+            make.width.equalTo(SCREENWIDTH - 20);
+            make.height.equalTo(45);
+        }];
+        
     }
     return self;
 }
 
--(void)jumpVC
+-(void)jumpVC:(UIButton *)btn
 {
-    NSLog(@"tag is %ld", (long)_rightBtn.tag);
+    [_delegate contentViewJumpVC:btn.tag];
+}
+
+-(void)jumpLoginPage
+{
+    NSLog(@"退出登录");
+    if (_exitBlock)
+    {
+        _exitBlock(self);
+    }
 }
 @end
