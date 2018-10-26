@@ -11,5 +11,7 @@
 @implementation UIViewController (UIViewController_Category)
 -(void)viewDidLoad{
     self.view.backgroundColor = [UIColor whiteColor];
+    //消除naviga的色差
+    self.navigationController.navigationBar.translucent = NO;
 }
 @end

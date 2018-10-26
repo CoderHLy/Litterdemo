@@ -26,7 +26,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"我的党建";\
+    
+    self.title = @"我的党建";
     //初始化headView
     [self initHeadView];
     //初始化内容View
@@ -35,7 +36,7 @@
 //初始化headView
 -(void)initHeadView
 {
-    _djHeadView = [[MyDjHeadView alloc] initWithFrame:CGRectMake(0, 65, SCREENWIDTH, 160)];
+    _djHeadView = [[MyDjHeadView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 160)];
     __weak typeof(self) weakSelf = self;
     _djHeadView.djBlock = ^(MyDjHeadView * _Nonnull headView) {
         //跳入登录页面
@@ -47,7 +48,7 @@
 //初始化内容View
 -(void)initContentView
 {
-    _myDjContentView = [[MyDjContentView alloc] initWithFrame:CGRectMake(0, 160 + 65, SCREENWIDTH, 280)];
+    _myDjContentView = [[MyDjContentView alloc] initWithFrame:CGRectMake(0, 160, SCREENWIDTH, 280)];
     _myDjContentView.userInteractionEnabled = YES;
     __weak typeof(self) weakSelf = self;
     _myDjContentView.exitBlock = ^(MyDjContentView * _Nonnull myDjContentView) {
