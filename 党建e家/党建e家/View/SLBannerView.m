@@ -181,7 +181,7 @@ static int imagesCount = 3;
     self.scrollView.contentSize = CGSizeMake(imagesCount * SLBannerViewWidth, 0);
     
     //pageCtrl的当前页背景颜色和默认颜色
-    self.pageCtrl.currentPageIndicatorTintColor = [UIColor redColor];
+    self.pageCtrl.currentPageIndicatorTintColor = [UIColor blueColor];
     self.pageCtrl.pageIndicatorTintColor = [UIColor lightGrayColor];
     self.pageCtrl.hidesForSinglePage = YES;
     
@@ -205,11 +205,11 @@ static int imagesCount = 3;
     CGFloat pageCtrlH = 40;
     CGFloat pageCtrlX = (SLBannerViewWidth - pageCtrlW) / 2;
     CGFloat pageCtrlY = SLBannerViewHeight - pageCtrlH;
-    self.pageCtrl.frame = CGRectMake(pageCtrlX, pageCtrlY, pageCtrlW, pageCtrlH);
+    self.pageCtrl.frame = CGRectMake(pageCtrlX, pageCtrlY - 15, pageCtrlW, pageCtrlH);
     
     //重写titleLabel的布局
     CGFloat titleH = 40;
-    self.titleLabel.frame = CGRectMake(0, SLBannerViewHeight - titleH, SLBannerViewWidth, titleH);
+    self.titleLabel.frame = CGRectMake(0, SLBannerViewHeight - titleH + 10, SLBannerViewWidth, titleH - 10);
     //1. 修复bug,让其默认从第0页开始
     self.pageCtrl.currentPage = 0;
     SLImageView *imageView = self.scrollView.subviews[0];
@@ -268,7 +268,9 @@ static int imagesCount = 3;
     }
     
     UILabel *titleLabel = [[UILabel alloc] init];
-    titleLabel.backgroundColor = [UIColor colorWithWhite:0 alpha:0.3];
+    titleLabel.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
+    titleLabel.textColor = [UIColor whiteColor];
+    titleLabel.font = [UIFont systemFontOfSize:12];
     [self addSubview:titleLabel];
     self.titleLabel = titleLabel;
     
