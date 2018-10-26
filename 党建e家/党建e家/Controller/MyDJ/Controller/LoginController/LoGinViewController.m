@@ -12,6 +12,7 @@
 #import "AFHTTPSessionManager.h"
 @interface LoGinViewController ()
 @property(nonatomic , strong) View *vc;
+//@property(nonatomic , strong) NSDictionary *datadic;
 @end
 
 @implementation LoGinViewController
