@@ -32,7 +32,6 @@
         }
         
         _oldPwdField = [[UITextField alloc] init];
-        _oldPwdField.backgroundColor = [UIColor redColor];
         _oldPwdField.borderStyle = UITextBorderStyleRoundedRect;
         _oldPwdField.clearButtonMode = UITextFieldViewModeAlways;
         [self addSubview:_oldPwdField];
@@ -44,7 +43,6 @@
         }];
         
         _OneNewPwdField = [[UITextField alloc] init];
-        _OneNewPwdField.backgroundColor = [UIColor redColor];
         _OneNewPwdField.borderStyle = UITextBorderStyleRoundedRect;
         [self addSubview:_OneNewPwdField];
         [_OneNewPwdField mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -55,7 +53,6 @@
         }];
         
         _sureNewPwdField = [[UITextField alloc] init];
-        _sureNewPwdField.backgroundColor = [UIColor redColor];
         _sureNewPwdField.borderStyle = UITextBorderStyleRoundedRect;
         [self addSubview:_sureNewPwdField];
         [_sureNewPwdField mas_makeConstraints:^(MASConstraintMaker *make) {
