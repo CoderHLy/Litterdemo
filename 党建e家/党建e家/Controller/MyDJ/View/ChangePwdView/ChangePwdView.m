@@ -19,11 +19,7 @@
         float originY = 20;
         for(int i = 0; i < 3; ++i)
         {
-            _titleLabel = [[UILabel alloc] init];
-            _titleLabel.textAlignment = NSTextAlignmentRight;
-            _titleLabel.font = [UIFont systemFontOfSize:18];
-            _titleLabel.text = _array[i];
-            [self addSubview:_titleLabel];
+            _titleLabel = [UILabel labelWithText:_array[i] alignment:NSTextAlignmentLeft textColor:[UIColor grayColor] font:14 superView:self];
             [_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(originY);
                 make.right.equalTo(-SCREENWIDTH + 110);
@@ -36,6 +32,8 @@
         }
         
         _oldPwdField = [[UITextField alloc] init];
+        _oldPwdField.borderStyle = UITextBorderStyleRoundedRect;
+        _oldPwdField.clearButtonMode = UITextFieldViewModeAlways;
         [self addSubview:_oldPwdField];
         [_oldPwdField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(20);
@@ -45,6 +43,7 @@
         }];
         
         _OneNewPwdField = [[UITextField alloc] init];
+        _OneNewPwdField.borderStyle = UITextBorderStyleRoundedRect;
         [self addSubview:_OneNewPwdField];
         [_OneNewPwdField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.oldPwdField.bottom).offset(40);
@@ -54,6 +53,7 @@
         }];
         
         _sureNewPwdField = [[UITextField alloc] init];
+        _sureNewPwdField.borderStyle = UITextBorderStyleRoundedRect;
         [self addSubview:_sureNewPwdField];
         [_sureNewPwdField mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.OneNewPwdField.bottom).offset(40);
@@ -62,16 +62,7 @@
             make.width.equalTo(230);
         }];
         //确认修改
-        _sureBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        _sureBtn.backgroundColor = [UIColor whiteColor];
-        _sureBtn.userInteractionEnabled = YES;
-        [_sureBtn setTitle:@"确认修改" forState:UIControlStateNormal];
-        [_sureBtn addTarget:self action:@selector(pressChangePwdBtn) forControlEvents:UIControlEventTouchUpInside];
-        [_sureBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        _sureBtn.backgroundColor = Color(27, 89, 169);
-        _sureBtn.layer.masksToBounds = YES;
-        _sureBtn.layer.cornerRadius = 10;
-        [self addSubview:_sureBtn];
+        _sureBtn = [UIButton bntWithBGcorol:[UIColor redColor] settitle:@"确定" Font:14 cornerRadius:5 masksToBounds:YES superView:self section:@selector(changePwd) Target:self settitlecolor:[UIColor whiteColor]];
         [_sureBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(originY + 20);
             make.centerX.equalTo(self.centerX);
@@ -83,7 +74,7 @@
     return self;
 }
 
--(void)pressChangePwdBtn
+-(void)changePwd
 {
     if(_block)
     {

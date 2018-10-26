@@ -21,4 +21,19 @@ superView:(nonnull UIView *)superView
     [superView addSubview:btn];
     return btn;
 }
+
++(UIButton *)bntWithBGcorol:(UIColor *)corol settitle:(NSString *)title Font:(CGFloat)font cornerRadius:(NSInteger)corner masksToBounds:(BOOL)mask superView:(nonnull UIView *)superView section:(SEL)action Target:(id)target settitlecolor:(UIColor *)titlecorol
+{
+    UIButton *bnt = [UIButton buttonWithType:UIButtonTypeCustom];
+    bnt.backgroundColor = corol;
+    [bnt setTitle:title forState:UIControlStateNormal];
+    [bnt setTitleColor:titlecorol forState:UIControlStateNormal];
+    bnt.titleLabel.font = [UIFont systemFontOfSize:font];
+    bnt.layer.cornerRadius = corner;
+    bnt.layer.masksToBounds = mask;
+    [bnt addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    [superView addSubview:bnt];
+    return bnt;
+}
+
 @end
