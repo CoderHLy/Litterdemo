@@ -10,6 +10,5 @@
 
 @implementation UIViewController (UIViewController_Category)
 -(void)viewDidLoad{
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 @end

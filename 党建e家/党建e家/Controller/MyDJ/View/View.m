@@ -32,9 +32,6 @@
         }];
         NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
         _nametextfiled = [[[HuangQinUITextField alloc]init] dic:attributes superView:self text:@"身份证号" color:[UIColor whiteColor]];
-//        attributes[NSForegroundColorAttributeName] = [UIColor whiteColor];
-//        _nametextfiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"身份证号" attributes:attributes];
-//        [self addSubview:_nametextfiled];
         [_nametextfiled mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.nameimageview.top).offset(3);
             make.left.equalTo(self.nameimageview.left).offset(3);
