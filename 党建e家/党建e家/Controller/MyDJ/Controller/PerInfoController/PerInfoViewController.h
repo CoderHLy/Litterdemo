@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PerInfoViewController : UIViewController
 
+@property (nonatomic,strong) NSDictionary *perInfoDic;
+
 @end
 
 NS_ASSUME_NONNULL_END
