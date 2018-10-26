@@ -9,7 +9,7 @@
 #import "HLTabBarViewController.h"
 #import "HLNavigationViewController.h"
 #import "HLMyDJViewController.h"
-#import "HLNotificationViewController.h"
+#import "HLNewsViewController.h"
 #import "HLIndexPageViewController.h"
 @interface HLTabBarViewController ()
 
@@ -27,7 +27,10 @@
     [self addChildViewController:naV1];
     
     //设置第二个页面--------------------
-    HLNavigationViewController *naV2 = [[HLNavigationViewController alloc] initWithRootViewController:[[HLNotificationViewController alloc] init]];
+    HLNewsViewController *tempVC = [[HLNewsViewController alloc] init];
+    tempVC.title = @"通知早知道";
+    tempVC.urlType = @"2";
+    HLNavigationViewController *naV2 = [[HLNavigationViewController alloc] initWithRootViewController:tempVC];
     [self setTabBarUINavigation:naV2 andTitleName:@"通知早知道" andImgName:@"msg_gray" andSelectedImgName:@"msg_red"];
     [self addChildViewController:naV2];
     

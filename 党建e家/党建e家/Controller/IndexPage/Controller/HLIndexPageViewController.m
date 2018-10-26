@@ -13,6 +13,8 @@
 #import "HLBannerModel.h"
 #import "HLNewsViewController.h"
 #import "HLDetailNewsViewController.h"
+#import "HLLifeViewController.h"
+#import "HLTakePhotoViewController.h"
 @interface HLIndexPageViewController ()<SLBannerViewDelegate>
 
 @end
@@ -105,11 +107,16 @@
 -(void)headerItemDidClicked:(NSInteger)tag
 {
     HLNewsViewController *vc = [[HLNewsViewController alloc] init];
+    HLLifeViewController *lifeVC = [[HLLifeViewController alloc] init];
     switch (tag) {
         case 0:
             vc.title = @"信工新闻眼";
             vc.urlType = @"0";
             [self.navigationController pushViewController:vc animated:YES];
+            break;
+        case 1:
+            lifeVC.title = @"掌上组织生活";
+            [self.navigationController pushViewController:lifeVC animated:YES];
             break;
         case 3:
             vc.title = @"党建一点通";
@@ -130,6 +137,7 @@
 -(void)footerItemDidClicked:(NSInteger)tag
 {
     HLNewsViewController *vc = [[HLNewsViewController alloc] init];
+    HLTakePhotoViewController *takePhoto = [[HLTakePhotoViewController alloc] init];
     switch (tag) {
         case 0:
             vc.title = @"随时随地学";
@@ -137,7 +145,9 @@
             [self.navigationController pushViewController:vc animated:YES];
             break;
         case 1:
-            
+            takePhoto.title = @"随时随地拍";
+            takePhoto.urlType = @"7";
+            [self.navigationController pushViewController:takePhoto animated:YES];
             break;
         case 2:
             vc.title = @"制度建设";
