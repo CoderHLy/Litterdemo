@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+//点击方法代理
+@protocol MyDjContentViewDelegate <NSObject>
+
+-(void)contentViewJumpVC:(NSInteger)tag;
+
+@end
 
 @interface MyDjContentView : UIView
 
@@ -21,6 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) NSArray *labArr;
 
 @property (nonatomic,strong) UIButton *loginBtn;
+
+typedef void(^exitBlock)(MyDjContentView *myDjContentView);
+@property (nonatomic,copy)exitBlock exitBlock;
+
+@property (nonatomic,weak) id<MyDjContentViewDelegate> delegate;
+
 
 @end
 

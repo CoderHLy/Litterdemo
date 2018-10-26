@@ -40,7 +40,7 @@
         }];
         
         //用户名label
-        _userNameLab = [UILabel labWithTextAlign:NSTextAlignmentCenter Font:14 bgColor:[UIColor blueColor] Text:@"你还没登录"];
+        _userNameLab = [UILabel labWithTextAlign:NSTextAlignmentCenter Font:14 bgColor:[UIColor clearColor] Text:@"你还没登录" textColor:[UIColor whiteColor]];
         [self.backImgView addSubview:_userNameLab];
         [_userNameLab mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.headImgBtn.bottom).offset(10);

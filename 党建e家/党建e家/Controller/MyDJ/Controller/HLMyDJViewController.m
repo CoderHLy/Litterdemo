@@ -12,7 +12,7 @@
 
 #import "MyDjHeadView.h"
 #import "MyDjContentView.h"
-@interface HLMyDJViewController ()
+@interface HLMyDJViewController ()<MyDjContentViewDelegate>
 
 @property (nonatomic,strong) MyDjHeadView *djHeadView;
 
@@ -47,6 +47,19 @@
 {
     _myDjContentView = [[MyDjContentView alloc] initWithFrame:CGRectMake(0, 160 + 65, SCREENWIDTH, 280)];
     _myDjContentView.userInteractionEnabled = YES;
+    __weak typeof(self) weakSelf = self;
+    _myDjContentView.exitBlock = ^(MyDjContentView * _Nonnull myDjContentView) {
+        [weakSelf.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
+    };
+    _myDjContentView.delegate = self;
     [self.view addSubview:_myDjContentView];
 }
+
+- (void)contentViewJumpVC:(NSInteger)tag
+{
+    NSLog(@"tag = %ld", (long)tag);
+    //判断tag值 登录 不同的页面。
+//    [self.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
+}
+
 @end
