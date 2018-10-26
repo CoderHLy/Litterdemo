@@ -15,4 +15,5 @@
 #import "UIButton+UIButton_HuangQinCategory.h"
 #import "UIImageView+UIImageView_Category.h"
 #import "UILabel+UILabel_Category.h"
+#import "HuangQinUITextField.h"
 #endif /* Category_h */

@@ -30,12 +30,31 @@
             make.right.equalTo(-30);
             make.height.equalTo(39);
         }];
+        NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+        _nametextfiled = [[[HuangQinUITextField alloc]init] dic:attributes superView:self text:@"身份证号" color:[UIColor whiteColor]];
+//        attributes[NSForegroundColorAttributeName] = [UIColor whiteColor];
+//        _nametextfiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"身份证号" attributes:attributes];
+//        [self addSubview:_nametextfiled];
+        [_nametextfiled mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.nameimageview.top).offset(3);
+            make.left.equalTo(self.nameimageview.left).offset(3);
+            make.width.equalTo(200);
+            make.height.equalTo(30);
+        }];
+        
         _passimageview = [UIImageView imageWithImage:@"登录框" subView:self];
         [_passimageview mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.nameimageview.bottom).offset(8);
             make.left.equalTo(30);
             make.right.equalTo(-30);
             make.height.equalTo(39);
+        }];
+        _passtextfiled = [[[HuangQinUITextField alloc]init] dic:attributes superView:self text:@"密码" color:[UIColor whiteColor]];
+        [_passtextfiled mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.passimageview.top).offset(3);
+            make.left.equalTo(self.passimageview.left).offset(3);
+            make.width.equalTo(200);
+            make.height.equalTo(30);
         }];
         _loginbnt = [UIButton_UIButton_HuangQinCategory bntWithBGcorol:Color(225, 88, 83) settitle:@"登录" Font:13 cornerRadius:5 masksToBounds:YES superView:self section:@selector(back) Target:self settitlecolor:[UIColor whiteColor]];
         [_loginbnt mas_makeConstraints:^(MASConstraintMaker *make) {
