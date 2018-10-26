@@ -9,13 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x515a;&#x5efa;e&#x5bb6;/Controller/IndexPage/Controller/HLIndexPageViewController.m"
-            timestampString = "562170598.172761"
+            filePath = "&#x515a;&#x5efa;e&#x5bb6;/BaseClass/News/Controller/HLNewsViewController.m"
+            timestampString = "562218551.279755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "-bannerView:didClickImagesAtIndex:"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x515a;&#x5efa;e&#x5bb6;/BaseClass/News/Controller/HLNewsViewController.m"
+            timestampString = "562218551.280051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
