@@ -41,6 +41,11 @@
 		708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F92181F75C00893311 /* MyDjHeadView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
 		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
+		70C2EDDD21829BCA0044AA97 /* HLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2EDDC21829BCA0044AA97 /* HLNewsModel.m */; };
+		70C2EDE421829DEB0044AA97 /* HLNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2EDE321829DEB0044AA97 /* HLNewsViewController.m */; };
+		70C2EDEB2182A0E50044AA97 /* HLNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2EDEA2182A0E50044AA97 /* HLNewsTableViewCell.m */; };
+		70C2EDEE2182AF530044AA97 /* HLNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2EDED2182AF530044AA97 /* HLNewsViewModel.m */; };
+		70C2EDF42182C0E40044AA97 /* HLDetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C2EDF32182C0E40044AA97 /* HLDetailNewsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +108,16 @@
 		708E56FC2181F75C00893311 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		708E57002181F77A00893311 /* UILabel+WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WSLabel.h"; sourceTree = "<group>"; };
 		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
+		70C2EDDB21829BCA0044AA97 /* HLNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLNewsModel.h; sourceTree = "<group>"; };
+		70C2EDDC21829BCA0044AA97 /* HLNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNewsModel.m; sourceTree = "<group>"; };
+		70C2EDE221829DEB0044AA97 /* HLNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLNewsViewController.h; sourceTree = "<group>"; };
+		70C2EDE321829DEB0044AA97 /* HLNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNewsViewController.m; sourceTree = "<group>"; };
+		70C2EDE92182A0E50044AA97 /* HLNewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLNewsTableViewCell.h; sourceTree = "<group>"; };
+		70C2EDEA2182A0E50044AA97 /* HLNewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNewsTableViewCell.m; sourceTree = "<group>"; };
+		70C2EDEC2182AF530044AA97 /* HLNewsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLNewsViewModel.h; sourceTree = "<group>"; };
+		70C2EDED2182AF530044AA97 /* HLNewsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLNewsViewModel.m; sourceTree = "<group>"; };
+		70C2EDF22182C0E40044AA97 /* HLDetailNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDetailNewsViewController.h; sourceTree = "<group>"; };
+		70C2EDF32182C0E40044AA97 /* HLDetailNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLDetailNewsViewController.m; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,12 +190,12 @@
 		704BA5932181520700C9703E /* 党建e家 */ = {
 			isa = PBXGroup;
 			children = (
+				70C2EDDA21829BB20044AA97 /* Model */,
 				708E56E52181C77600893311 /* View */,
 				704BA7312181693400C9703E /* Source */,
 				704BA5B0218166BF00C9703E /* Lib */,
 				704BA5AE218166A300C9703E /* BaseClass */,
 				704BA5AD2181669B00C9703E /* Controller */,
-				704BA5AB2181668D00C9703E /* Model */,
 				704BA5AA2181668400C9703E /* Tools */,
 				704BA5942181520700C9703E /* AppDelegate.h */,
 				7013A7F3218176370034BA8F /* Assets.xcassets */,
@@ -205,13 +220,6 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		704BA5AB2181668D00C9703E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		704BA5AD2181669B00C9703E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +233,7 @@
 		704BA5AE218166A300C9703E /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				70C2EDE121829DCE0044AA97 /* News */,
 				704BA8A321816D6C00C9703E /* NavigationAndTabBar */,
 			);
 			path = BaseClass;
@@ -370,6 +379,54 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		70C2EDDA21829BB20044AA97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EDDB21829BCA0044AA97 /* HLNewsModel.h */,
+				70C2EDDC21829BCA0044AA97 /* HLNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70C2EDE121829DCE0044AA97 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EDE721829DFB0044AA97 /* ViewModel */,
+				70C2EDE621829DF60044AA97 /* View */,
+				70C2EDE521829DF00044AA97 /* Controller */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		70C2EDE521829DF00044AA97 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EDE221829DEB0044AA97 /* HLNewsViewController.h */,
+				70C2EDE321829DEB0044AA97 /* HLNewsViewController.m */,
+				70C2EDF22182C0E40044AA97 /* HLDetailNewsViewController.h */,
+				70C2EDF32182C0E40044AA97 /* HLDetailNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70C2EDE621829DF60044AA97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EDE92182A0E50044AA97 /* HLNewsTableViewCell.h */,
+				70C2EDEA2182A0E50044AA97 /* HLNewsTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70C2EDE721829DFB0044AA97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				70C2EDEC2182AF530044AA97 /* HLNewsViewModel.h */,
+				70C2EDED2182AF530044AA97 /* HLNewsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -498,7 +555,11 @@
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
+				70C2EDDD21829BCA0044AA97 /* HLNewsModel.m in Sources */,
 				708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */,
+				70C2EDE421829DEB0044AA97 /* HLNewsViewController.m in Sources */,
+				70C2EDEE2182AF530044AA97 /* HLNewsViewModel.m in Sources */,
+				70C2EDF42182C0E40044AA97 /* HLDetailNewsViewController.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
@@ -508,6 +569,7 @@
 				708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */,
 				708E56FF2181F75D00893311 /* View.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
+				70C2EDEB2182A0E50044AA97 /* HLNewsTableViewCell.m in Sources */,
 				708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,

@@ -11,6 +11,8 @@
 #import "SLBannerView.h"
 #import "HLBannerViewModel.h"
 #import "HLBannerModel.h"
+#import "HLNewsViewController.h"
+#import "HLDetailNewsViewController.h"
 @interface HLIndexPageViewController ()<SLBannerViewDelegate>
 
 @end
@@ -102,10 +104,55 @@
 #pragma mark - bodyView的delegate方法
 -(void)headerItemDidClicked:(NSInteger)tag
 {
+    HLNewsViewController *vc = [[HLNewsViewController alloc] init];
+    switch (tag) {
+        case 0:
+            vc.title = @"信工新闻眼";
+            vc.urlType = @"0";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        case 3:
+            vc.title = @"党建一点通";
+            vc.urlType = @"3";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        case 4:
+            vc.title = @"党员亮身份";
+            vc.urlType = @"5";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+            
+        default:
+            break;
+    }
     NSLog(@"headerItem.tag = %ld", tag);
 }
 -(void)footerItemDidClicked:(NSInteger)tag
 {
+    HLNewsViewController *vc = [[HLNewsViewController alloc] init];
+    switch (tag) {
+        case 0:
+            vc.title = @"随时随地学";
+            vc.urlType = @"6";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        case 1:
+            
+            break;
+        case 2:
+            vc.title = @"制度建设";
+            vc.urlType = @"4";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        case 3:
+            vc.title = @"特色活动";
+            vc.urlType = @"1";
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+            
+        default:
+            break;
+    }
     NSLog(@"footerItem.tag = %ld", tag);
 }
 
@@ -113,5 +160,28 @@
 -(void)bannerView:(SLBannerView *)banner didClickImagesAtIndex:(NSInteger)index
 {
     NSLog(@"bannerView.index = %ld", index);
+    HLDetailNewsViewController *vc = [[HLDetailNewsViewController alloc] init];
+    switch (index) {
+        case 0:
+            vc.title = @"随时随地学";
+            vc.newsId = @"2656";
+            break;
+        case 1:
+            vc.title = @"信工新闻眼";
+            vc.newsId = @"2681";
+            break;
+        case 2:
+            vc.title = @"信工新闻眼";
+            vc.newsId = @"2592";
+            break;
+        case 3:
+            vc.title = @"随时随地学";
+            vc.newsId = @"2679";
+            break;
+            
+        default:
+            break;
+    }
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end
