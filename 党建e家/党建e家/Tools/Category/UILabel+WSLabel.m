@@ -14,6 +14,7 @@
         Font:(CGFloat)fontSize
      bgColor:(UIColor *)color
         Text:(NSString *)text
+   textColor:(UIColor *)textColor;
 {
     UILabel *lab = [[UILabel alloc] init];
     lab.textAlignment = textAlignment;

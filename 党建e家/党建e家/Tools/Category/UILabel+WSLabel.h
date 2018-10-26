@@ -13,8 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UILabel (WSLabel)
 +(UILabel *)labWithTextAlign:(NSTextAlignment)textAlignment
                         Font:(CGFloat)fontSize
-                     bgColor:(UIColor *)color
-                        Text:(NSString *)text;
+                     bgColor:(UIColor *)bgColor
+                        Text:(NSString *)text
+                   textColor:(UIColor *)textColor;
 
 @end
 
