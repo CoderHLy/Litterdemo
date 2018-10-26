@@ -10,6 +10,7 @@
 #import "View.h"
 #import "Masonry.h"
 #import "AFHTTPSessionManager.h"
+#import "PerInfoViewController.h"
 @interface LoGinViewController ()
 @property(nonatomic , strong) View *vc;
 //@property(nonatomic , strong) NSDictionary *datadic;
@@ -38,6 +39,8 @@
             {
                 NSLog(@"登录成功");
                 NSLog(@"%@" , responseObject);
+                PerInfoViewController *perinfovc = [[PerInfoViewController alloc]init];
+                perinfovc.perInfoDic = [responseObject valueForKey:@"data"];
                 [weakself.navigationController popViewControllerAnimated:YES];
             }
             else
