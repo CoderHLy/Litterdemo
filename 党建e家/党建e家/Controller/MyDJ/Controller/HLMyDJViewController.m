@@ -7,11 +7,13 @@
 //
 
 #import "HLMyDJViewController.h"
-
 #import "LoGinViewController.h"
-
+#import "PerInfoViewController.h"
 #import "MyDjHeadView.h"
 #import "MyDjContentView.h"
+#import "ChargeViewController.h"
+#import "ChangePwdController.h"
+#import "PerIntegralViewController.h"
 @interface HLMyDJViewController ()<MyDjContentViewDelegate>
 
 @property (nonatomic,strong) MyDjHeadView *djHeadView;
@@ -54,12 +56,34 @@
     _myDjContentView.delegate = self;
     [self.view addSubview:_myDjContentView];
 }
-
+//跳转页面
 - (void)contentViewJumpVC:(NSInteger)tag
 {
-    NSLog(@"tag = %ld", (long)tag);
-    //判断tag值 登录 不同的页面。
-//    [self.navigationController pushViewController:[[LoGinViewController alloc] init] animated:YES];
+    switch (tag) {
+        case 0:
+        {
+            [self.navigationController pushViewController:[[PerInfoViewController alloc] init] animated:YES];
+        }
+            break;
+        case 1:
+        {
+           [self.navigationController pushViewController:[[PerIntegralViewController alloc] init] animated:YES];
+        }
+            break;
+        case 2:
+        {
+            [self.navigationController pushViewController:[[ChangePwdController alloc] init] animated:YES];
+        }
+            break;
+        case 3:
+        {
+            [self.navigationController pushViewController:[[ChargeViewController alloc] init] animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 
 @end

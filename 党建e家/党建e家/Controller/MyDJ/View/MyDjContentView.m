@@ -40,11 +40,13 @@
             //右边箭头
             _rightBtn = [UIButton buttonWithTag:i Target:self selector:@selector(jumpVC:) superView:self];
             [_rightBtn setImage:[UIImage imageNamed:@"jiantou"] forState:UIControlStateNormal];
+            //设置button上的图片的位置。
+            _rightBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
             [_rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(15 + 50 * i);
                 make.right.equalTo(-15);
                 make.height.equalTo(20);
-                make.width.equalTo(15);
+                make.width.equalTo(SCREENWIDTH);
             }];
             
             //线

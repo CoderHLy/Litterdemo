@@ -41,6 +41,12 @@
 		708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F92181F75C00893311 /* MyDjHeadView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
 		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
+		FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07E72182A58D00397BA1 /* PerInfoViewController.m */; };
+		FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07EC2182AD3600397BA1 /* PeoInfoView.m */; };
+		FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */; };
+		FECE07F52182B24000397BA1 /* ChangePwdController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F42182B24000397BA1 /* ChangePwdController.m */; };
+		FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F82182B28400397BA1 /* ChargeViewController.m */; };
+		FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07FC2182B43F00397BA1 /* ChangePwdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +111,18 @@
 		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE07E62182A58D00397BA1 /* PerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerInfoViewController.h; sourceTree = "<group>"; };
+		FECE07E72182A58D00397BA1 /* PerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerInfoViewController.m; sourceTree = "<group>"; };
+		FECE07EB2182AD3600397BA1 /* PeoInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoInfoView.h; sourceTree = "<group>"; };
+		FECE07EC2182AD3600397BA1 /* PeoInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeoInfoView.m; sourceTree = "<group>"; };
+		FECE07EF2182B1F100397BA1 /* PerIntegralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerIntegralViewController.h; sourceTree = "<group>"; };
+		FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerIntegralViewController.m; sourceTree = "<group>"; };
+		FECE07F32182B24000397BA1 /* ChangePwdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePwdController.h; sourceTree = "<group>"; };
+		FECE07F42182B24000397BA1 /* ChangePwdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePwdController.m; sourceTree = "<group>"; };
+		FECE07F72182B28400397BA1 /* ChargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChargeViewController.h; sourceTree = "<group>"; };
+		FECE07F82182B28400397BA1 /* ChargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChargeViewController.m; sourceTree = "<group>"; };
+		FECE07FB2182B43F00397BA1 /* ChangePwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePwdView.h; sourceTree = "<group>"; };
+		FECE07FC2182B43F00397BA1 /* ChangePwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePwdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,10 +331,13 @@
 		708E56D52181BC9B00893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				701E30D12181F9FD00FEEA81 /* LoGinViewController.h */,
-				701E30D02181F9FD00FEEA81 /* LoGinViewController.m */,
-				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
+				FECE07F62182B25700397BA1 /* ChargeController */,
+				FECE07F22182B21F00397BA1 /* ChangePwdController */,
+				FECE07EE2182B1C900397BA1 /* PerIntegralController */,
+				FECE07E52182A48C00397BA1 /* LoginController */,
+				FECE07E42182A43000397BA1 /* PerInfoController */,
 				708E56D72181BC9B00893311 /* HLMyDJViewController.h */,
+				708E56D62181BC9B00893311 /* HLMyDJViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,14 +381,87 @@
 		708E56F62181F75C00893311 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				708E56F72181F75C00893311 /* View.h */,
-				708E56FC2181F75C00893311 /* View.m */,
+				FECE07FA2182B42200397BA1 /* ChangePwdView */,
+				FECE07EA2182ACFF00397BA1 /* PerInfoView */,
+				FECE07E92182A67200397BA1 /* LoginView */,
 				708E56FA2181F75C00893311 /* MyDjHeadView.h */,
 				708E56F92181F75C00893311 /* MyDjHeadView.m */,
 				708E56FB2181F75C00893311 /* MyDjContentView.h */,
 				708E56F82181F75C00893311 /* MyDjContentView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FECE07E42182A43000397BA1 /* PerInfoController */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07E62182A58D00397BA1 /* PerInfoViewController.h */,
+				FECE07E72182A58D00397BA1 /* PerInfoViewController.m */,
+			);
+			path = PerInfoController;
+			sourceTree = "<group>";
+		};
+		FECE07E52182A48C00397BA1 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				701E30D12181F9FD00FEEA81 /* LoGinViewController.h */,
+				701E30D02181F9FD00FEEA81 /* LoGinViewController.m */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		FECE07E92182A67200397BA1 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				708E56F72181F75C00893311 /* View.h */,
+				708E56FC2181F75C00893311 /* View.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		FECE07EA2182ACFF00397BA1 /* PerInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07EB2182AD3600397BA1 /* PeoInfoView.h */,
+				FECE07EC2182AD3600397BA1 /* PeoInfoView.m */,
+			);
+			path = PerInfoView;
+			sourceTree = "<group>";
+		};
+		FECE07EE2182B1C900397BA1 /* PerIntegralController */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07EF2182B1F100397BA1 /* PerIntegralViewController.h */,
+				FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */,
+			);
+			path = PerIntegralController;
+			sourceTree = "<group>";
+		};
+		FECE07F22182B21F00397BA1 /* ChangePwdController */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07F32182B24000397BA1 /* ChangePwdController.h */,
+				FECE07F42182B24000397BA1 /* ChangePwdController.m */,
+			);
+			path = ChangePwdController;
+			sourceTree = "<group>";
+		};
+		FECE07F62182B25700397BA1 /* ChargeController */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07F72182B28400397BA1 /* ChargeViewController.h */,
+				FECE07F82182B28400397BA1 /* ChargeViewController.m */,
+			);
+			path = ChargeController;
+			sourceTree = "<group>";
+		};
+		FECE07FA2182B42200397BA1 /* ChangePwdView */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07FB2182B43F00397BA1 /* ChangePwdView.h */,
+				FECE07FC2182B43F00397BA1 /* ChangePwdView.m */,
+			);
+			path = ChangePwdView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -492,6 +586,7 @@
 			files = (
 				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
 				701E30E32182021300FEEA81 /* AssignToObject.m in Sources */,
+				FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */,
 				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
 				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
 				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
@@ -504,12 +599,17 @@
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
+				FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */,
 				708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */,
+				FECE07F52182B24000397BA1 /* ChangePwdController.m in Sources */,
 				708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */,
 				708E56FF2181F75D00893311 /* View.m in Sources */,
+				FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */,
+				FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
 				708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
+				FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
