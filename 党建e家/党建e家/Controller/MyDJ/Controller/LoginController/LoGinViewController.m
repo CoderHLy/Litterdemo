@@ -24,6 +24,10 @@
         make.top.equalTo(60);
         make.left.equalTo(0);
     }];
+    __weak typeof(self) weakself = self;
+    view.block = ^(View * _Nonnull vc) {
+        [weakself.navigationController popViewControllerAnimated:YES];
+    };
 }
 
 @end

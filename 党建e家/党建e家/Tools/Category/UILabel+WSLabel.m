@@ -9,7 +9,7 @@
 #import "UILabel+WSLabel.h"
 
 @implementation UILabel (WSLabel)
-
+#pragma 伟少
 +(UILabel *)labWithTextAlign:(NSTextAlignment)textAlignment
         Font:(CGFloat)fontSize
      bgColor:(UIColor *)color
