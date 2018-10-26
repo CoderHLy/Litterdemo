@@ -15,6 +15,7 @@
     attributes[NSForegroundColorAttributeName] = color;
     textfile.attributedPlaceholder = [[NSAttributedString alloc] initWithString:text attributes:attributes];
     [superView addSubview:textfile];
+    textfile.font = [UIFont systemFontOfSize:13];
     return textfile;
 }
 @end

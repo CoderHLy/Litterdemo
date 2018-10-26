@@ -22,7 +22,6 @@
             make.width.equalTo(180);
             make.height.equalTo(60);
         }];
-        
         _nameimageview = [UIImageView imageWithImage:@"登录框" subView:self];
         [_nameimageview mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.imageview.bottom).offset(33);
@@ -38,7 +37,6 @@
             make.width.equalTo(200);
             make.height.equalTo(30);
         }];
-        
         _passimageview = [UIImageView imageWithImage:@"登录框" subView:self];
         [_passimageview mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.nameimageview.bottom).offset(8);
@@ -47,17 +45,18 @@
             make.height.equalTo(39);
         }];
         _passtextfiled = [[[HuangQinUITextField alloc]init] dic:attributes superView:self text:@"密码" color:[UIColor whiteColor]];
+        [self addSubview:_passtextfiled];
         [_passtextfiled mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.passimageview.top).offset(3);
             make.left.equalTo(self.passimageview.left).offset(3);
             make.width.equalTo(200);
             make.height.equalTo(30);
         }];
-        _loginbnt = [UIButton_UIButton_HuangQinCategory bntWithBGcorol:Color(225, 88, 83) settitle:@"登录" Font:13 cornerRadius:5 masksToBounds:YES superView:self section:@selector(back) Target:self settitlecolor:[UIColor whiteColor]];
+        _loginbnt = [UIButton bntWithBGcorol:Color(225, 88, 83) settitle:@"登录" Font:13 cornerRadius:5 masksToBounds:YES superView:self section:@selector(back) Target:self settitlecolor:[UIColor whiteColor]];
         [_loginbnt mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.passimageview.bottom).offset(8);
+            make.width.equalTo(SCREENWIDTH - 60);
             make.left.equalTo(30);
-            make.right.equalTo(-30);
             make.height.equalTo(39);
         }];
    }

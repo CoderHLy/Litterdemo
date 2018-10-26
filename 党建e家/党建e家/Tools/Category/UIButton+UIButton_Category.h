@@ -15,6 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
                     Target:(id)target
                   selector:(SEL)action
                  superView:(UIView *)superView;
+
++(UIButton *)bntWithBGcorol:(UIColor *)corol
+                   settitle:(NSString *)title
+                       Font:(CGFloat)font
+               cornerRadius:(NSInteger)corner
+              masksToBounds:(BOOL)mask
+                  superView:(nonnull UIView *)superView
+                    section:(SEL)action Target:(id)target
+              settitlecolor:(UIColor *)titlecorol;
+
 @end
 
 NS_ASSUME_NONNULL_END
