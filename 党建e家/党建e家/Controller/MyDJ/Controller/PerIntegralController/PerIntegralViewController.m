@@ -9,13 +9,16 @@
 #import "PerIntegralViewController.h"
 #import "MyDjHeadView.h"
 #import "PerIntergralView.h"
-@interface PerIntegralViewController ()
+#import "ruleView.h"
+#import "GradeDetailViewController.h"
+@interface PerIntegralViewController ()<PerIntergralViewDelegate>
 
 @property (nonatomic,strong) MyDjHeadView *djHeadView;
 @property (nonatomic,strong) PerIntergralView *perIntergralView;
 
 @property (nonatomic,strong) UIScrollView *scrollView;
 
+@property (nonatomic,strong) RuleView *ruleView;
 @end
 
 @implementation PerIntegralViewController
@@ -33,6 +36,9 @@
     
     //初始化积分明细视图和阴影部分视图
     [self initIntegralDetailView];
+    
+    //初始化积分规则视图
+    [self initRuleView];
 }
 
 //初始化scrollView
@@ -41,7 +47,8 @@
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT)];
     _scrollView.userInteractionEnabled = YES;
     _scrollView.bounces = NO;
-    _scrollView.contentSize = CGSizeMake(SCREENWIDTH, 1000);
+    _scrollView.showsHorizontalScrollIndicator = NO;
+    _scrollView.contentSize = CGSizeMake(SCREENWIDTH, 260 + 30 * 18);
     [self.view addSubview:_scrollView];
 }
 
@@ -60,7 +67,19 @@
 -(void)initIntegralDetailView
 {
     _perIntergralView = [[PerIntergralView alloc] initWithFrame:CGRectMake(0, 160, SCREENWIDTH, 100)];
+    _perIntergralView.delegate = self;
     [self.scrollView addSubview:_perIntergralView];
     
+}
+
+-(void)initRuleView
+{
+    _ruleView = [[RuleView alloc] initWithFrame:CGRectMake(0, 260, SCREENWIDTH, 30 * 18)];
+    [self.scrollView addSubview:_ruleView];
+}
+
+- (void)jumpRuleVc
+{
+    [self.navigationController pushViewController:[[GradeDetailViewController alloc] init] animated:YES];
 }
 @end

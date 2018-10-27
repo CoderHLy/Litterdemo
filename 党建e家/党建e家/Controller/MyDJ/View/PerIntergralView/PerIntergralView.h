@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@protocol PerIntergralViewDelegate <NSObject>
 
+-(void)jumpRuleVc;
+
+@end
 @interface PerIntergralView : UIView
 
 @property (nonatomic,strong) UIImageView *leftImageView;
@@ -17,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong) UIButton *rightBtn;
 @property (nonatomic,strong) UIImageView *lineView;
 
+@property (nonatomic,weak)id<PerIntergralViewDelegate> delegate;
 @end
 
 NS_ASSUME_NONNULL_END

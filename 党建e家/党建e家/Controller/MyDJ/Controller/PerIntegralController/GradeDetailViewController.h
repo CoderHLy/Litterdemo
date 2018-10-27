@@ -1,8 +1,8 @@
 //
-//  ruleView.h
+//  GradeDetailViewController.h
 //  党建e家
 //
-//  Created by Sunweisheng on 2018/10/26.
+//  Created by Sunweisheng on 2018/10/27.
 //  Copyright © 2018年 何龙. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ruleView : UIView
+@interface GradeDetailViewController : UIViewController
 
 @end
 

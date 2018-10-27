@@ -74,7 +74,10 @@
 
 -(void)jumpVC:(UIButton *)btn
 {
-    NSLog(@"跳转积分明细页面");
+    if (self.delegate)
+    {
+        [self.delegate jumpRuleVc];
+    }
 }
 
 @end
