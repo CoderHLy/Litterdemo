@@ -24,10 +24,10 @@
     [_manager POST:@"http://211.67.177.56:8080/hhdj/news/newsList.do" parameters:dic progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         self->_arr = [AssignToObject customModel:@"HLNewsModel" ToArray:[responseObject objectForKey:@"rows"]];
         NSLog(@"response = %@", responseObject);
+        block(self->_arr);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error = %@", error);
     }];
-    block(_arr);
 }
 
 @end
