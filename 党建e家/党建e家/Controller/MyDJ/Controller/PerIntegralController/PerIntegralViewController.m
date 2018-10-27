@@ -7,8 +7,14 @@
 //
 
 #import "PerIntegralViewController.h"
-
+#import "MyDjHeadView.h"
+#import "PerIntergralView.h"
 @interface PerIntegralViewController ()
+
+@property (nonatomic,strong) MyDjHeadView *djHeadView;
+@property (nonatomic,strong) PerIntergralView *perIntergralView;
+
+@property (nonatomic,strong) UIScrollView *scrollView;
 
 @end
 
@@ -18,16 +24,43 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"个人量化积分";
+    
+    //初始化scrollView
+    [self initScrollerView];
+    
+    //初始化头部视图
+    [self initHeadView];
+    
+    //初始化积分明细视图和阴影部分视图
+    [self initIntegralDetailView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//初始化scrollView
+-(void)initScrollerView
+{
+    _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT)];
+    _scrollView.userInteractionEnabled = YES;
+    _scrollView.bounces = NO;
+    _scrollView.contentSize = CGSizeMake(SCREENWIDTH, 1000);
+    [self.view addSubview:_scrollView];
 }
-*/
 
+
+//初始化headView
+-(void)initHeadView
+{
+    _djHeadView = [[MyDjHeadView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 160)];
+    _djHeadView.headImgBtn.hidden = YES;
+    _djHeadView.userNameLab.hidden = YES;
+    _djHeadView.backImgView.image = [UIImage imageNamed:@"integral_bg"];
+    [self.scrollView addSubview:_djHeadView];
+}
+
+//初始化积分明细视图和阴影部分视图
+-(void)initIntegralDetailView
+{
+    _perIntergralView = [[PerIntergralView alloc] initWithFrame:CGRectMake(0, 160, SCREENWIDTH, 100)];
+    [self.scrollView addSubview:_perIntergralView];
+    
+}
 @end
