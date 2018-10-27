@@ -16,6 +16,7 @@
 @implementation HLLifeViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.edgesForExtendedLayout = UIRectEdgeNone | UIRectEdgeBottom;
     HLLifeView *lifeView = [[HLLifeView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT - 100)];
     lifeView.delegate = self;
