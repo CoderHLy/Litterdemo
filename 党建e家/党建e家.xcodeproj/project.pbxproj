@@ -60,6 +60,9 @@
 		FECE08442183E47700397BA1 /* HLLifeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08402183E47700397BA1 /* HLLifeView.m */; };
 		FECE08482183F22D00397BA1 /* WSRuleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08472183F22D00397BA1 /* WSRuleViewModel.m */; };
 		FECE084B218411AB00397BA1 /* GradeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE084A218411AB00397BA1 /* GradeDetailViewController.m */; };
+		FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE0853218442C200397BA1 /* TableViewDataSource.m */; };
+		FECE08572184523300397BA1 /* GradeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */; };
+		FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE085A2184608200397BA1 /* GradeDetailModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +165,12 @@
 		FECE08472183F22D00397BA1 /* WSRuleViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSRuleViewModel.m; sourceTree = "<group>"; };
 		FECE0849218411AB00397BA1 /* GradeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailViewController.h; sourceTree = "<group>"; };
 		FECE084A218411AB00397BA1 /* GradeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailViewController.m; sourceTree = "<group>"; };
+		FECE0852218442C200397BA1 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		FECE0853218442C200397BA1 /* TableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		FECE08552184523300397BA1 /* GradeDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailTableViewCell.h; sourceTree = "<group>"; };
+		FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailTableViewCell.m; sourceTree = "<group>"; };
+		FECE08592184608200397BA1 /* GradeDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailModel.h; sourceTree = "<group>"; };
+		FECE085A2184608200397BA1 /* GradeDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +377,7 @@
 		704BA8AC21816E2200C9703E /* MyDJ */ = {
 			isa = PBXGroup;
 			children = (
+				FECE08582184605E00397BA1 /* Model */,
 				FECE08452183F1DF00397BA1 /* ViewModel */,
 				708E56F62181F75C00893311 /* View */,
 				708E56D52181BC9B00893311 /* Controller */,
@@ -534,6 +544,8 @@
 				FECE0819218300AA00397BA1 /* PerIntergralView.m */,
 				FECE081E218317BE00397BA1 /* RuleView.h */,
 				FECE081F218317BE00397BA1 /* RuleView.m */,
+				FECE08552184523300397BA1 /* GradeDetailTableViewCell.h */,
+				FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */,
 			);
 			path = PerIntergralView;
 			sourceTree = "<group>";
@@ -595,18 +607,29 @@
 		FECE08452183F1DF00397BA1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FECE084C2184137700397BA1 /* WSRuleViewModel */,
+				FECE08512184425500397BA1 /* TableViewProtol */,
+				FECE08462183F22D00397BA1 /* WSRuleViewModel.h */,
+				FECE08472183F22D00397BA1 /* WSRuleViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		FECE084C2184137700397BA1 /* WSRuleViewModel */ = {
+		FECE08512184425500397BA1 /* TableViewProtol */ = {
 			isa = PBXGroup;
 			children = (
-				FECE08462183F22D00397BA1 /* WSRuleViewModel.h */,
-				FECE08472183F22D00397BA1 /* WSRuleViewModel.m */,
+				FECE0852218442C200397BA1 /* TableViewDataSource.h */,
+				FECE0853218442C200397BA1 /* TableViewDataSource.m */,
 			);
-			path = WSRuleViewModel;
+			path = TableViewProtol;
+			sourceTree = "<group>";
+		};
+		FECE08582184605E00397BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08592184608200397BA1 /* GradeDetailModel.h */,
+				FECE085A2184608200397BA1 /* GradeDetailModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -731,8 +754,10 @@
 			files = (
 				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
 				701E30E32182021300FEEA81 /* AssignToObject.m in Sources */,
+				FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */,
 				FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */,
 				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
+				FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */,
 				3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */,
 				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
 				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
@@ -742,6 +767,7 @@
 				708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
+				FECE08572184523300397BA1 /* GradeDetailTableViewCell.m in Sources */,
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,

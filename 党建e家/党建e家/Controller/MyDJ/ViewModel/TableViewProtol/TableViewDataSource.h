@@ -1,5 +1,5 @@
 //
-//  WSRuleViewModel.h
+//  TableViewDataSource.h
 //  党建e家
 //
 //  Created by Sunweisheng on 2018/10/27.
@@ -7,15 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void(^WSCallBack)(NSMutableArray* arr);
+@interface TableViewDataSource : NSObject<UITableViewDataSource>
 
-@interface WSRuleViewModel : NSObject
-
-//返回积分规则请求的数据
--(void)setRuleObj:(WSCallBack)block;
+@property (nonatomic,strong) NSMutableArray *tableViewDataSourceArr;
 
 @end
 

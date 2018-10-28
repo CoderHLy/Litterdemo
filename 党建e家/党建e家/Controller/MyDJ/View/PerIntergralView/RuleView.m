@@ -5,6 +5,7 @@
 //  Created by Sunweisheng on 2018/10/26.
 //  Copyright © 2018年 何龙. All rights reserved.
 //
+#define RuleURL @"http://211.67.177.56:8080/hhdj/integral/integralRule.do"
 
 #import "RuleView.h"
 #import "WSRuleViewModel.h"
@@ -30,11 +31,11 @@
                 [weakSelf.gradeArr addObject:[arr[i] valueForKey:@"maxNum"]];
             }
             [weakSelf initViews];
-        }];
+        } andStr:RuleURL];
     }
     return self;
 }
-#pragma mark - jiazai
+#pragma mark - 加载积分规则视图
 -(void)initViews
 {
     for (int i = 0; i < 18; ++i)
@@ -43,7 +44,7 @@
         [titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(0 + 30 * i);
             make.left.equalTo(15);
-            make.width.equalTo(100);
+            make.width.equalTo(150);
             make.height.equalTo(30);
         }];
         
