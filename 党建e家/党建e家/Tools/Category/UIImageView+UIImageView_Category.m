@@ -20,7 +20,9 @@
     imageView.userInteractionEnabled = touch;
     return imageView;
 }
-
+/**
+ @pragma  dskfsdlk
+ */
 #pragma mark WeiSheng，快速创建imageView
 +(UIImageView *)imageWithImage:(NSString *)imgName
                        subView:(UIView *)view
