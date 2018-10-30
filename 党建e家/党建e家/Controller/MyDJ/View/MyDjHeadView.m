@@ -18,6 +18,7 @@
         //红色背景
         UIImageView *imgView = [[UIImageView alloc] init];
         imgView.backgroundColor = Color(182, 0, 10);
+        imgView.contentMode = UIViewContentModeScaleAspectFit;
 //        imgView.image = [UIImage imageNamed:@"integral_bg"];
         [self addSubview:imgView];
         [imgView mas_makeConstraints:^(MASConstraintMaker *make) {

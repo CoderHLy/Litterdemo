@@ -19,16 +19,14 @@
 @implementation HLNewsViewController{
     UITableView *_aTableView;
     NSMutableArray *_objArr;
-    AFHTTPSessionManager *_manager;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.edgesForExtendedLayout = UIRectEdgeNone | UIRectEdgeBottom;
     NSLog(@"urlType = %@", _urlType);
-    [self initModel];
     [self initTableView];
-    // Do any additional setup after loading the view.
 }
 #pragma mark - 初始化tableView
 -(void)initTableView
@@ -45,20 +43,16 @@
         make.top.equalTo(0);
         make.size.equalTo(CGSizeMake(SCREENWIDTH, SCREENHEIGHT - 64));
     }];
+    [self initModel];
 }
 -(void)initModel
 {
     _objArr = [NSMutableArray array];
-    _manager = [[AFHTTPSessionManager alloc] init];
-    NSDictionary *dic = @{@"page":@"1",
-                          @"rows":@"10",
-                          @"type":_urlType};
-    [_manager POST:@"http://211.67.177.56:8080/hhdj/news/newsList.do" parameters:dic progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        self->_objArr = [AssignToObject customModel:@"HLNewsModel" ToArray:[responseObject objectForKey:@"rows"]];
+    HLNewsViewModel *obj = [[HLNewsViewModel alloc] init];
+    [obj getObjArr:^(NSMutableArray * _Nonnull arr) {
+        self->_objArr = arr;
         [self->_aTableView reloadData];
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"error = %@", error);
-    }];
+    } type:_urlType];
 }
 #pragma mark - delegete
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

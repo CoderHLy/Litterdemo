@@ -38,13 +38,11 @@
 		708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56D62181BC9B00893311 /* HLMyDJViewController.m */; };
 		708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56DA2181BCA300893311 /* HLIndexPageViewController.m */; };
 		708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56DF2181BD8500893311 /* HLIndexBodyView.m */; };
-		708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56E32181C3FE00893311 /* HLNotificationViewController.m */; };
 		708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56EA2181EA2A00893311 /* UIButton+UIButton_Category.m */; };
 		708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56EE2181F02A00893311 /* UIImageView+UIImageView_Category.m */; };
 		708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F12181F26200893311 /* UILabel+UILabel_Category.m */; };
 		708E56F52181F63A00893311 /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F32181F63A00893311 /* SLBannerView.m */; };
 		708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F82181F75C00893311 /* MyDjContentView.m */; };
-		708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F92181F75C00893311 /* MyDjHeadView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
 		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
 		FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07E72182A58D00397BA1 /* PerInfoViewController.m */; };
@@ -54,6 +52,18 @@
 		FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F82182B28400397BA1 /* ChargeViewController.m */; };
 		FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07FC2182B43F00397BA1 /* ChangePwdView.m */; };
 		FECE08032182B67B00397BA1 /* HuangQinUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08002182B67A00397BA1 /* HuangQinUITextField.m */; };
+		FECE081A218300AA00397BA1 /* PerIntergralView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE0819218300AA00397BA1 /* PerIntergralView.m */; };
+		FECE081D2183020500397BA1 /* MyDjHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE081C2183020500397BA1 /* MyDjHeadView.m */; };
+		FECE0820218317BE00397BA1 /* RuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE081F218317BE00397BA1 /* RuleView.m */; };
+		FECE08412183E47700397BA1 /* HLTakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08362183E47700397BA1 /* HLTakePhotoViewController.m */; };
+		FECE08422183E47700397BA1 /* HLTakePhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08392183E47700397BA1 /* HLTakePhotoCollectionViewCell.m */; };
+		FECE08432183E47700397BA1 /* HLLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE083D2183E47700397BA1 /* HLLifeViewController.m */; };
+		FECE08442183E47700397BA1 /* HLLifeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08402183E47700397BA1 /* HLLifeView.m */; };
+		FECE08482183F22D00397BA1 /* WSRuleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08472183F22D00397BA1 /* WSRuleViewModel.m */; };
+		FECE084B218411AB00397BA1 /* GradeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE084A218411AB00397BA1 /* GradeDetailViewController.m */; };
+		FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE0853218442C200397BA1 /* TableViewDataSource.m */; };
+		FECE08572184523300397BA1 /* GradeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */; };
+		FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE085A2184608200397BA1 /* GradeDetailModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,8 +118,6 @@
 		708E56DB2181BCA300893311 /* HLIndexPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLIndexPageViewController.h; sourceTree = "<group>"; };
 		708E56DE2181BD8500893311 /* HLIndexBodyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLIndexBodyView.h; sourceTree = "<group>"; };
 		708E56DF2181BD8500893311 /* HLIndexBodyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLIndexBodyView.m; sourceTree = "<group>"; };
-		708E56E22181C3FE00893311 /* HLNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNotificationViewController.h; sourceTree = "<group>"; };
-		708E56E32181C3FE00893311 /* HLNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNotificationViewController.m; sourceTree = "<group>"; };
 		708E56E92181EA2A00893311 /* UIButton+UIButton_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButton_Category.h"; sourceTree = "<group>"; };
 		708E56EA2181EA2A00893311 /* UIButton+UIButton_Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButton_Category.m"; sourceTree = "<group>"; };
 		708E56EC2181EFD900893311 /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
@@ -121,8 +129,6 @@
 		708E56F42181F63A00893311 /* SLBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBannerView.h; sourceTree = "<group>"; };
 		708E56F72181F75C00893311 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		708E56F82181F75C00893311 /* MyDjContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjContentView.m; sourceTree = "<group>"; };
-		708E56F92181F75C00893311 /* MyDjHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjHeadView.m; sourceTree = "<group>"; };
-		708E56FA2181F75C00893311 /* MyDjHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjHeadView.h; sourceTree = "<group>"; };
 		708E56FB2181F75C00893311 /* MyDjContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjContentView.h; sourceTree = "<group>"; };
 		708E56FC2181F75C00893311 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		708E57002181F77A00893311 /* UILabel+WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WSLabel.h"; sourceTree = "<group>"; };
@@ -143,6 +149,30 @@
 		FECE07FC2182B43F00397BA1 /* ChangePwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePwdView.m; sourceTree = "<group>"; };
 		FECE07FF2182B67A00397BA1 /* HuangQinUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuangQinUITextField.h; sourceTree = "<group>"; };
 		FECE08002182B67A00397BA1 /* HuangQinUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuangQinUITextField.m; sourceTree = "<group>"; };
+		FECE0818218300AA00397BA1 /* PerIntergralView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerIntergralView.h; sourceTree = "<group>"; };
+		FECE0819218300AA00397BA1 /* PerIntergralView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerIntergralView.m; sourceTree = "<group>"; };
+		FECE081B2183020500397BA1 /* MyDjHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjHeadView.h; sourceTree = "<group>"; };
+		FECE081C2183020500397BA1 /* MyDjHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjHeadView.m; sourceTree = "<group>"; };
+		FECE081E218317BE00397BA1 /* RuleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuleView.h; sourceTree = "<group>"; };
+		FECE081F218317BE00397BA1 /* RuleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuleView.m; sourceTree = "<group>"; };
+		FECE08352183E47700397BA1 /* HLTakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTakePhotoViewController.h; sourceTree = "<group>"; };
+		FECE08362183E47700397BA1 /* HLTakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTakePhotoViewController.m; sourceTree = "<group>"; };
+		FECE08382183E47700397BA1 /* HLTakePhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTakePhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FECE08392183E47700397BA1 /* HLTakePhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTakePhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		FECE083C2183E47700397BA1 /* HLLifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLifeViewController.h; sourceTree = "<group>"; };
+		FECE083D2183E47700397BA1 /* HLLifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLifeViewController.m; sourceTree = "<group>"; };
+		FECE083F2183E47700397BA1 /* HLLifeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLifeView.h; sourceTree = "<group>"; };
+		FECE08402183E47700397BA1 /* HLLifeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLifeView.m; sourceTree = "<group>"; };
+		FECE08462183F22D00397BA1 /* WSRuleViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSRuleViewModel.h; sourceTree = "<group>"; };
+		FECE08472183F22D00397BA1 /* WSRuleViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSRuleViewModel.m; sourceTree = "<group>"; };
+		FECE0849218411AB00397BA1 /* GradeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailViewController.h; sourceTree = "<group>"; };
+		FECE084A218411AB00397BA1 /* GradeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailViewController.m; sourceTree = "<group>"; };
+		FECE0852218442C200397BA1 /* TableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		FECE0853218442C200397BA1 /* TableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		FECE08552184523300397BA1 /* GradeDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailTableViewCell.h; sourceTree = "<group>"; };
+		FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailTableViewCell.m; sourceTree = "<group>"; };
+		FECE08592184608200397BA1 /* GradeDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradeDetailModel.h; sourceTree = "<group>"; };
+		FECE085A2184608200397BA1 /* GradeDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradeDetailModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,7 +284,6 @@
 			children = (
 				708E56E52181C77600893311 /* View */,
 				704BA7312181693400C9703E /* Source */,
-				704BA5B0218166BF00C9703E /* Lib */,
 				704BA5AE218166A300C9703E /* BaseClass */,
 				704BA5AD2181669B00C9703E /* Controller */,
 				704BA5AB2181668D00C9703E /* Model */,
@@ -296,7 +325,6 @@
 			isa = PBXGroup;
 			children = (
 				704BA8AC21816E2200C9703E /* MyDJ */,
-				704BA8AB21816DEE00C9703E /* Notification */,
 				704BA8AA21816DD400C9703E /* IndexPage */,
 			);
 			path = Controller;
@@ -309,13 +337,6 @@
 				704BA8A321816D6C00C9703E /* NavigationAndTabBar */,
 			);
 			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		704BA5B0218166BF00C9703E /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		704BA7312181693400C9703E /* Source */ = {
@@ -356,17 +377,11 @@
 			path = IndexPage;
 			sourceTree = "<group>";
 		};
-		704BA8AB21816DEE00C9703E /* Notification */ = {
-			isa = PBXGroup;
-			children = (
-				708E56E12181C3FE00893311 /* Controller */,
-			);
-			path = Notification;
-			sourceTree = "<group>";
-		};
 		704BA8AC21816E2200C9703E /* MyDJ */ = {
 			isa = PBXGroup;
 			children = (
+				FECE08582184605E00397BA1 /* Model */,
+				FECE08452183F1DF00397BA1 /* ViewModel */,
 				708E56F62181F75C00893311 /* View */,
 				708E56D52181BC9B00893311 /* Controller */,
 			);
@@ -410,6 +425,8 @@
 		708E56D92181BCA300893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FECE08332183E47700397BA1 /* HLTakePhotoVC */,
+				FECE083A2183E47700397BA1 /* OrganizationalLife */,
 				708E56DB2181BCA300893311 /* HLIndexPageViewController.h */,
 				708E56DA2181BCA300893311 /* HLIndexPageViewController.m */,
 			);
@@ -425,15 +442,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		708E56E12181C3FE00893311 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				708E56E22181C3FE00893311 /* HLNotificationViewController.h */,
-				708E56E32181C3FE00893311 /* HLNotificationViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		708E56E52181C77600893311 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,13 +454,14 @@
 		708E56F62181F75C00893311 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FECE08172183005100397BA1 /* PerIntergralView */,
 				FECE07FA2182B42200397BA1 /* ChangePwdView */,
 				FECE07EA2182ACFF00397BA1 /* PerInfoView */,
 				FECE07E92182A67200397BA1 /* LoginView */,
-				708E56FA2181F75C00893311 /* MyDjHeadView.h */,
-				708E56F92181F75C00893311 /* MyDjHeadView.m */,
 				708E56FB2181F75C00893311 /* MyDjContentView.h */,
 				708E56F82181F75C00893311 /* MyDjContentView.m */,
+				FECE081B2183020500397BA1 /* MyDjHeadView.h */,
+				FECE081C2183020500397BA1 /* MyDjHeadView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -498,6 +507,8 @@
 			children = (
 				FECE07EF2182B1F100397BA1 /* PerIntegralViewController.h */,
 				FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */,
+				FECE0849218411AB00397BA1 /* GradeDetailViewController.h */,
+				FECE084A218411AB00397BA1 /* GradeDetailViewController.m */,
 			);
 			path = PerIntegralController;
 			sourceTree = "<group>";
@@ -527,6 +538,101 @@
 				FECE07FC2182B43F00397BA1 /* ChangePwdView.m */,
 			);
 			path = ChangePwdView;
+			sourceTree = "<group>";
+		};
+		FECE08172183005100397BA1 /* PerIntergralView */ = {
+			isa = PBXGroup;
+			children = (
+				FECE0818218300AA00397BA1 /* PerIntergralView.h */,
+				FECE0819218300AA00397BA1 /* PerIntergralView.m */,
+				FECE081E218317BE00397BA1 /* RuleView.h */,
+				FECE081F218317BE00397BA1 /* RuleView.m */,
+				FECE08552184523300397BA1 /* GradeDetailTableViewCell.h */,
+				FECE08562184523300397BA1 /* GradeDetailTableViewCell.m */,
+			);
+			path = PerIntergralView;
+			sourceTree = "<group>";
+		};
+		FECE08332183E47700397BA1 /* HLTakePhotoVC */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08342183E47700397BA1 /* Controller */,
+				FECE08372183E47700397BA1 /* View */,
+			);
+			path = HLTakePhotoVC;
+			sourceTree = "<group>";
+		};
+		FECE08342183E47700397BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08352183E47700397BA1 /* HLTakePhotoViewController.h */,
+				FECE08362183E47700397BA1 /* HLTakePhotoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FECE08372183E47700397BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08382183E47700397BA1 /* HLTakePhotoCollectionViewCell.h */,
+				FECE08392183E47700397BA1 /* HLTakePhotoCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FECE083A2183E47700397BA1 /* OrganizationalLife */ = {
+			isa = PBXGroup;
+			children = (
+				FECE083B2183E47700397BA1 /* Controller */,
+				FECE083E2183E47700397BA1 /* View */,
+			);
+			path = OrganizationalLife;
+			sourceTree = "<group>";
+		};
+		FECE083B2183E47700397BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FECE083C2183E47700397BA1 /* HLLifeViewController.h */,
+				FECE083D2183E47700397BA1 /* HLLifeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FECE083E2183E47700397BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FECE083F2183E47700397BA1 /* HLLifeView.h */,
+				FECE08402183E47700397BA1 /* HLLifeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FECE08452183F1DF00397BA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08512184425500397BA1 /* TableViewProtol */,
+				FECE08462183F22D00397BA1 /* WSRuleViewModel.h */,
+				FECE08472183F22D00397BA1 /* WSRuleViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FECE08512184425500397BA1 /* TableViewProtol */ = {
+			isa = PBXGroup;
+			children = (
+				FECE0852218442C200397BA1 /* TableViewDataSource.h */,
+				FECE0853218442C200397BA1 /* TableViewDataSource.m */,
+			);
+			path = TableViewProtol;
+			sourceTree = "<group>";
+		};
+		FECE08582184605E00397BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FECE08592184608200397BA1 /* GradeDetailModel.h */,
+				FECE085A2184608200397BA1 /* GradeDetailModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -652,8 +758,10 @@
 			files = (
 				708E56F22181F26200893311 /* UILabel+UILabel_Category.m in Sources */,
 				701E30E32182021300FEEA81 /* AssignToObject.m in Sources */,
+				FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */,
 				FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */,
 				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
+				FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */,
 				3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */,
 				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
 				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
@@ -663,23 +771,31 @@
 				708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */,
 				708E56CB2181A02800893311 /* UIViewController+UIViewController_Category.m in Sources */,
 				704BA8A921816DCB00C9703E /* HLTabBarViewController.m in Sources */,
+				FECE08572184523300397BA1 /* GradeDetailTableViewCell.m in Sources */,
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
 				3E6058BF2182F2EC006454E3 /* HLNewsViewController.m in Sources */,
+				FECE081D2183020500397BA1 /* MyDjHeadView.m in Sources */,
 				FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */,
-				708E56E42181C3FE00893311 /* HLNotificationViewController.m in Sources */,
+				FECE081A218300AA00397BA1 /* PerIntergralView.m in Sources */,
+				FECE08482183F22D00397BA1 /* WSRuleViewModel.m in Sources */,
+				FECE08412183E47700397BA1 /* HLTakePhotoViewController.m in Sources */,
 				FECE07F52182B24000397BA1 /* ChangePwdController.m in Sources */,
 				FECE08032182B67B00397BA1 /* HuangQinUITextField.m in Sources */,
 				708E56EF2181F02A00893311 /* UIImageView+UIImageView_Category.m in Sources */,
 				3E6058BE2182F2EC006454E3 /* HLNewsViewModel.m in Sources */,
 				708E56FF2181F75D00893311 /* View.m in Sources */,
+				FECE084B218411AB00397BA1 /* GradeDetailViewController.m in Sources */,
+				FECE08432183E47700397BA1 /* HLLifeViewController.m in Sources */,
 				FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */,
+				FECE0820218317BE00397BA1 /* RuleView.m in Sources */,
 				FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
-				708E56FE2181F75D00893311 /* MyDjHeadView.m in Sources */,
 				3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
+				FECE08422183E47700397BA1 /* HLTakePhotoCollectionViewCell.m in Sources */,
+				FECE08442183E47700397BA1 /* HLLifeView.m in Sources */,
 				3E6058C42182F358006454E3 /* HLNewsModel.m in Sources */,
 				FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */,
 				704BA5962181520700C9703E /* AppDelegate.m in Sources */,

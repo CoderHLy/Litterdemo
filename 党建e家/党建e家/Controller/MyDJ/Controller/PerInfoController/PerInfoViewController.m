@@ -22,6 +22,7 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+
     self.title = @"个人信息";
     _rightbnt = [UIButton buttonWithType:UIButtonTypeCustom];
     [_rightbnt setTitle:@"编辑" forState:UIControlStateNormal];

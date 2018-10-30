@@ -21,7 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _wkWebView = [[WKWebView alloc] initWithFrame:CGRectMake(8, 0, self.view.frame.size.width - 16, self.view.frame.size.height)];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.edgesForExtendedLayout = UIRectEdgeNone | UIRectEdgeBottom;
+    _wkWebView = [[WKWebView alloc] initWithFrame:CGRectMake(8, 0, self.view.frame.size.width - 16, self.view.frame.size.height - 64)];
     _wkWebView.navigationDelegate = self;
     _wkWebView.backgroundColor = [UIColor clearColor];
     _wkWebView.scrollView.showsHorizontalScrollIndicator = NO;
