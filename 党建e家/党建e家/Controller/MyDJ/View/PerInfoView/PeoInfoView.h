@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PeoInfoView : UIView
-
+@property(nonatomic , strong) UIView *line;
+@property(nonatomic , strong) UILabel *label;
+@property(nonatomic , strong) UITextField *textfiled;
 @end
 
 NS_ASSUME_NONNULL_END
