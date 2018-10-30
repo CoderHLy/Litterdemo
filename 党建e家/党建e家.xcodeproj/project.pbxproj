@@ -45,6 +45,7 @@
 		708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F82181F75C00893311 /* MyDjContentView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
 		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
+		FE83EDC12188848A00886B46 /* CommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE83EDC02188848A00886B46 /* CommonClass.m */; };
 		FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07E72182A58D00397BA1 /* PerInfoViewController.m */; };
 		FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07EC2182AD3600397BA1 /* PeoInfoView.m */; };
 		FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */; };
@@ -135,6 +136,8 @@
 		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE83EDBF2188848A00886B46 /* CommonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonClass.h; sourceTree = "<group>"; };
+		FE83EDC02188848A00886B46 /* CommonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonClass.m; sourceTree = "<group>"; };
 		FECE07E62182A58D00397BA1 /* PerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerInfoViewController.h; sourceTree = "<group>"; };
 		FECE07E72182A58D00397BA1 /* PerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerInfoViewController.m; sourceTree = "<group>"; };
 		FECE07EB2182AD3600397BA1 /* PeoInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoInfoView.h; sourceTree = "<group>"; };
@@ -307,6 +310,8 @@
 				701E30E22182021300FEEA81 /* AssignToObject.h */,
 				701E30E12182021300FEEA81 /* AssignToObject.m */,
 				708E56C72181996C00893311 /* CommonDefine.h */,
+				FE83EDBF2188848A00886B46 /* CommonClass.h */,
+				FE83EDC02188848A00886B46 /* CommonClass.m */,
 				708E56C821819FA700893311 /* Category */,
 			);
 			path = Tools;
@@ -795,6 +800,7 @@
 				3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
 				FECE08422183E47700397BA1 /* HLTakePhotoCollectionViewCell.m in Sources */,
+				FE83EDC12188848A00886B46 /* CommonClass.m in Sources */,
 				FECE08442183E47700397BA1 /* HLLifeView.m in Sources */,
 				3E6058C42182F358006454E3 /* HLNewsModel.m in Sources */,
 				FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */,
