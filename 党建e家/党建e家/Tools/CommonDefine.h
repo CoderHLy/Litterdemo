@@ -14,7 +14,8 @@
 //约束控件时，不需要再写完整的"MAS.top"语句
 #define MAS_SHORTHAND
 #define MAS_SHORTHAND_GLOBALS
-
+#define setdefaults(object , key) [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
+#define gaindefaults(key) [[NSUserDefaults standardUserDefaults] objectForKey:key];
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
 

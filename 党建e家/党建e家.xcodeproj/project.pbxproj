@@ -13,6 +13,7 @@
 		3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058B82182F2EC006454E3 /* HLDetailNewsViewController.m */; };
 		3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058BC2182F2EC006454E3 /* HLNewsTableViewCell.m */; };
 		3E6058C42182F358006454E3 /* HLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058C32182F358006454E3 /* HLNewsModel.m */; };
+		3E6058C62183F5CB006454E3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E6058C52183F5CB006454E3 /* Property List.plist */; };
 		7013A7F4218176370034BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F3218176370034BA8F /* Assets.xcassets */; };
 		7013A7FB218177080034BA8F /* party_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F5218177080034BA8F /* party_red.png */; };
 		7013A7FC218177080034BA8F /* party_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F6218177080034BA8F /* party_gray.png */; };
@@ -66,6 +67,7 @@
 		3E6058BD2182F2EC006454E3 /* HLNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsTableViewCell.h; sourceTree = "<group>"; };
 		3E6058C22182F358006454E3 /* HLNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsModel.h; sourceTree = "<group>"; };
 		3E6058C32182F358006454E3 /* HLNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNewsModel.m; sourceTree = "<group>"; };
+		3E6058C52183F5CB006454E3 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		48A0F76B94AF2BB611ABD534 /* Pods-党建e家.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.debug.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.debug.xcconfig"; sourceTree = "<group>"; };
 		7013A7F3218176370034BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7013A7F5218177080034BA8F /* party_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party_red.png; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				704BA59A2181520700C9703E /* Main.storyboard */,
 				704BA59F2181520800C9703E /* LaunchScreen.storyboard */,
 				704BA5A22181520800C9703E /* Info.plist */,
+				3E6058C52183F5CB006454E3 /* Property List.plist */,
 				704BA5A32181520800C9703E /* main.m */,
 			);
 			path = "党建e家";
@@ -585,6 +588,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6058C62183F5CB006454E3 /* Property List.plist in Resources */,
 				701E30D82181FA3300FEEA81 /* 登录框.png in Resources */,
 				7013A800218177080034BA8F /* vip_gray.png in Resources */,
 				704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */,

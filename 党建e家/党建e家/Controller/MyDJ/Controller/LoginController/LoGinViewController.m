@@ -18,7 +18,8 @@
 
 @implementation LoGinViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"登录";
@@ -41,7 +42,9 @@
                 NSLog(@"%@" , responseObject);
                 PerInfoViewController *perinfovc = [[PerInfoViewController alloc]init];
                 perinfovc.perInfoDic = [responseObject valueForKey:@"data"];
+                NSLog(@"%@" , perinfovc.perInfoDic);
                 [weakself.navigationController popViewControllerAnimated:YES];
+                [[NSUserDefaults standardUserDefaults] setObject:[responseObject valueForKey:@"token"] forKey:@"token"];
             }
             else
             {
