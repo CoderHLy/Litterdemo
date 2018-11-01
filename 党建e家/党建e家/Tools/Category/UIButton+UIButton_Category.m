@@ -22,18 +22,18 @@ superView:(nonnull UIView *)superView
     return btn;
 }
 
-+(UIButton *)bntWithBGcorol:(UIColor *)corol settitle:(NSString *)title Font:(CGFloat)font cornerRadius:(NSInteger)corner masksToBounds:(BOOL)mask superView:(nonnull UIView *)superView section:(SEL)action Target:(id)target settitlecolor:(UIColor *)titlecorol
++(UIButton *)btnWithBGcolor:(UIColor *)color settitle:(NSString *)title Font:(CGFloat)font cornerRadius:(NSInteger)corner masksToBounds:(BOOL)mask superView:(nonnull UIView *)superView section:(SEL)action Target:(id)target settitlecolor:(UIColor *)titlecorol
 {
-    UIButton *bnt = [UIButton buttonWithType:UIButtonTypeCustom];
-    bnt.backgroundColor = corol;
-    [bnt setTitle:title forState:UIControlStateNormal];
-    [bnt setTitleColor:titlecorol forState:UIControlStateNormal];
-    bnt.titleLabel.font = [UIFont systemFontOfSize:font];
-    bnt.layer.cornerRadius = corner;
-    bnt.layer.masksToBounds = mask;
-    [bnt addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    [superView addSubview:bnt];
-    return bnt;
+    UIButton *btn= [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = color;
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitleColor:titlecorol forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize:font];
+    btn.layer.cornerRadius = corner;
+    btn.layer.masksToBounds = mask;
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    [superView addSubview:btn];
+    return btn;
 }
 
 @end

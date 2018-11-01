@@ -52,7 +52,7 @@
             make.width.equalTo(200);
             make.height.equalTo(30);
         }];
-        _loginbnt = [UIButton bntWithBGcorol:Color(225, 88, 83) settitle:@"登录" Font:13 cornerRadius:5 masksToBounds:YES superView:self section:@selector(back) Target:self settitlecolor:[UIColor whiteColor]];
+        _loginbnt = [UIButton btnWithBGcolor:Color(225, 88, 83) settitle:@"登录" Font:13.0 cornerRadius:5 masksToBounds:YES superView:self section:@selector(back) Target:self settitlecolor:[UIColor whiteColor]];
         [_loginbnt mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.passimageview.bottom).offset(8);
             make.width.equalTo(SCREENWIDTH - 60);

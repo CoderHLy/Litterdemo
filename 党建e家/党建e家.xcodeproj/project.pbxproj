@@ -44,8 +44,12 @@
 		708E56F52181F63A00893311 /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F32181F63A00893311 /* SLBannerView.m */; };
 		708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F82181F75C00893311 /* MyDjContentView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
-		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
+		FE04DA8E218A9150007A7C81 /* WSCloudIntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */; };
+		FE04DA94218A9822007A7C81 /* WSClodeIntTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */; };
 		FE83EDC12188848A00886B46 /* CommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE83EDC02188848A00886B46 /* CommonClass.m */; };
+		FEB143F5218ADCF900221572 /* CloudeDatSouProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */; };
+		FEB143F9218AEE2600221572 /* CloudeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143F8218AEE2600221572 /* CloudeModel.m */; };
+		FEB143FC218B09F400221572 /* AddContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143FB218B09F400221572 /* AddContentView.m */; };
 		FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07E72182A58D00397BA1 /* PerInfoViewController.m */; };
 		FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07EC2182AD3600397BA1 /* PeoInfoView.m */; };
 		FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */; };
@@ -132,12 +136,20 @@
 		708E56F82181F75C00893311 /* MyDjContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjContentView.m; sourceTree = "<group>"; };
 		708E56FB2181F75C00893311 /* MyDjContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjContentView.h; sourceTree = "<group>"; };
 		708E56FC2181F75C00893311 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		708E57002181F77A00893311 /* UILabel+WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WSLabel.h"; sourceTree = "<group>"; };
-		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE04DA8B218A914F007A7C81 /* WSCloudIntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCloudIntViewController.h; sourceTree = "<group>"; };
+		FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCloudIntViewController.m; sourceTree = "<group>"; };
+		FE04DA92218A9822007A7C81 /* WSClodeIntTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSClodeIntTableViewCell.h; sourceTree = "<group>"; };
+		FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSClodeIntTableViewCell.m; sourceTree = "<group>"; };
 		FE83EDBF2188848A00886B46 /* CommonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonClass.h; sourceTree = "<group>"; };
 		FE83EDC02188848A00886B46 /* CommonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonClass.m; sourceTree = "<group>"; };
+		FEB143F3218ADCF900221572 /* CloudeDatSouProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudeDatSouProtocol.h; sourceTree = "<group>"; };
+		FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudeDatSouProtocol.m; sourceTree = "<group>"; };
+		FEB143F7218AEE2600221572 /* CloudeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudeModel.h; sourceTree = "<group>"; };
+		FEB143F8218AEE2600221572 /* CloudeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudeModel.m; sourceTree = "<group>"; };
+		FEB143FA218B09F400221572 /* AddContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddContentView.h; sourceTree = "<group>"; };
+		FEB143FB218B09F400221572 /* AddContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddContentView.m; sourceTree = "<group>"; };
 		FECE07E62182A58D00397BA1 /* PerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerInfoViewController.h; sourceTree = "<group>"; };
 		FECE07E72182A58D00397BA1 /* PerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerInfoViewController.m; sourceTree = "<group>"; };
 		FECE07EB2182AD3600397BA1 /* PeoInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoInfoView.h; sourceTree = "<group>"; };
@@ -398,8 +410,6 @@
 			children = (
 				FECE07FF2182B67A00397BA1 /* HuangQinUITextField.h */,
 				FECE08002182B67A00397BA1 /* HuangQinUITextField.m */,
-				708E57002181F77A00893311 /* UILabel+WSLabel.h */,
-				708E57012181F77A00893311 /* UILabel+WSLabel.m */,
 				708E56EC2181EFD900893311 /* Category.h */,
 				708E56C92181A02800893311 /* UIViewController+UIViewController_Category.h */,
 				708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */,
@@ -430,6 +440,7 @@
 		708E56D92181BCA300893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FE04DA89218A914F007A7C81 /* CloudInteraction */,
 				FECE08332183E47700397BA1 /* HLTakePhotoVC */,
 				FECE083A2183E47700397BA1 /* OrganizationalLife */,
 				708E56DB2181BCA300893311 /* HLIndexPageViewController.h */,
@@ -469,6 +480,55 @@
 				FECE081C2183020500397BA1 /* MyDjHeadView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		FE04DA89218A914F007A7C81 /* CloudInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F6218AEE1100221572 /* Model */,
+				FEB143F2218ADC6F00221572 /* DataSoureProtocol */,
+				FE04DA8A218A914F007A7C81 /* Controller */,
+				FE04DA8D218A914F007A7C81 /* View */,
+			);
+			path = CloudInteraction;
+			sourceTree = "<group>";
+		};
+		FE04DA8A218A914F007A7C81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE04DA8B218A914F007A7C81 /* WSCloudIntViewController.h */,
+				FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE04DA8D218A914F007A7C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE04DA92218A9822007A7C81 /* WSClodeIntTableViewCell.h */,
+				FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */,
+				FEB143FA218B09F400221572 /* AddContentView.h */,
+				FEB143FB218B09F400221572 /* AddContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEB143F2218ADC6F00221572 /* DataSoureProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F3218ADCF900221572 /* CloudeDatSouProtocol.h */,
+				FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */,
+			);
+			path = DataSoureProtocol;
+			sourceTree = "<group>";
+		};
+		FEB143F6218AEE1100221572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F7218AEE2600221572 /* CloudeModel.h */,
+				FEB143F8218AEE2600221572 /* CloudeModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FECE07E42182A43000397BA1 /* PerInfoController */ = {
@@ -766,10 +826,10 @@
 				FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */,
 				FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */,
 				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
+				FE04DA94218A9822007A7C81 /* WSClodeIntTableViewCell.m in Sources */,
 				FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */,
 				3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */,
 				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
-				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,
 				708E56E02181BD8500893311 /* HLIndexBodyView.m in Sources */,
@@ -780,11 +840,14 @@
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
+				FE04DA8E218A9150007A7C81 /* WSCloudIntViewController.m in Sources */,
+				FEB143F9218AEE2600221572 /* CloudeModel.m in Sources */,
 				3E6058BF2182F2EC006454E3 /* HLNewsViewController.m in Sources */,
 				FECE081D2183020500397BA1 /* MyDjHeadView.m in Sources */,
 				FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */,
 				FECE081A218300AA00397BA1 /* PerIntergralView.m in Sources */,
 				FECE08482183F22D00397BA1 /* WSRuleViewModel.m in Sources */,
+				FEB143FC218B09F400221572 /* AddContentView.m in Sources */,
 				FECE08412183E47700397BA1 /* HLTakePhotoViewController.m in Sources */,
 				FECE07F52182B24000397BA1 /* ChangePwdController.m in Sources */,
 				FECE08032182B67B00397BA1 /* HuangQinUITextField.m in Sources */,
@@ -797,6 +860,7 @@
 				FECE0820218317BE00397BA1 /* RuleView.m in Sources */,
 				FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
+				FEB143F5218ADCF900221572 /* CloudeDatSouProtocol.m in Sources */,
 				3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
 				FECE08422183E47700397BA1 /* HLTakePhotoCollectionViewCell.m in Sources */,
@@ -881,7 +945,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -934,7 +998,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -949,10 +1013,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KMBC32K463;
+				DEVELOPMENT_TEAM = 23799A59K5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "党建e家/PrefixHeader.pch";
 				INFOPLIST_FILE = "党建e家/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -971,10 +1036,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KMBC32K463;
+				DEVELOPMENT_TEAM = 23799A59K5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "党建e家/PrefixHeader.pch";
 				INFOPLIST_FILE = "党建e家/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -15,7 +15,7 @@
 #import "HLDetailNewsViewController.h"
 #import "HLLifeViewController.h"
 #import "HLTakePhotoViewController.h"
-#import "CloudIntViewController.h"
+#import "WSCloudIntViewController.h"
 @interface HLIndexPageViewController ()<SLBannerViewDelegate>
 
 @end
@@ -110,7 +110,7 @@
 {
     HLNewsViewController *vc = [[HLNewsViewController alloc] init];
     HLLifeViewController *lifeVC = [[HLLifeViewController alloc] init];
-    CloudIntViewController *cloudVc = [[CloudIntViewController alloc] init];
+    WSCloudIntViewController *cloudVc = [[WSCloudIntViewController alloc] init];
     switch (tag) {
         case 0:
             vc.title = @"信工新闻眼";

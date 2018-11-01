@@ -64,7 +64,7 @@
             make.width.equalTo(SCREENWIDTH - 80);
         }];
         //确认修改
-        _sureBtn = [UIButton bntWithBGcorol:[UIColor redColor] settitle:@"确定" Font:18 cornerRadius:5 masksToBounds:YES superView:self section:@selector(changePwd) Target:self settitlecolor:[UIColor whiteColor]];
+        _sureBtn = [UIButton btnWithBGcolor:[UIColor redColor] settitle:@"确定" Font:18 cornerRadius:5 masksToBounds:YES superView:self section:@selector(changePwd) Target:self settitlecolor:[UIColor whiteColor]];
         [_sureBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(originY + 20);
             make.centerX.equalTo(self.centerX);

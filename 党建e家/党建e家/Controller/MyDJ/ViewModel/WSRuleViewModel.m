@@ -43,7 +43,7 @@
     _arr = [NSMutableArray array];
     
     [self.manager POST:url parameters:dic progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"responseObjct = %@", responseObject);
+//        NSLog(@"responseObjct = %@", responseObject);
         if([url isEqualToString:@"http://211.67.177.56:8080/hhdj/user/updatePwd.do"])
         {
             self->_arr = responseObject;
