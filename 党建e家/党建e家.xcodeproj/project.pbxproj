@@ -13,6 +13,7 @@
 		3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058B82182F2EC006454E3 /* HLDetailNewsViewController.m */; };
 		3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058BC2182F2EC006454E3 /* HLNewsTableViewCell.m */; };
 		3E6058C42182F358006454E3 /* HLNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6058C32182F358006454E3 /* HLNewsModel.m */; };
+		3E6058C62183F5CB006454E3 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E6058C52183F5CB006454E3 /* Property List.plist */; };
 		7013A7F4218176370034BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F3218176370034BA8F /* Assets.xcassets */; };
 		7013A7FB218177080034BA8F /* party_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F5218177080034BA8F /* party_red.png */; };
 		7013A7FC218177080034BA8F /* party_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7013A7F6218177080034BA8F /* party_gray.png */; };
@@ -43,6 +44,7 @@
 		708E56F52181F63A00893311 /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F32181F63A00893311 /* SLBannerView.m */; };
 		708E56FD2181F75D00893311 /* MyDjContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56F82181F75C00893311 /* MyDjContentView.m */; };
 		708E56FF2181F75D00893311 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E56FC2181F75C00893311 /* View.m */; };
+<<<<<<< HEAD
 		708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708E57012181F77A00893311 /* UILabel+WSLabel.m */; };
 		70E17FDA218A8A8100C4EBCD /* HLDemocraticIndexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E17FD9218A8A8100C4EBCD /* HLDemocraticIndexVC.m */; };
 		70E17FDD218A8A9800C4EBCD /* HLDemocraticVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E17FDC218A8A9800C4EBCD /* HLDemocraticVC.m */; };
@@ -57,6 +59,14 @@
 		70E18000218AFFC100C4EBCD /* HLListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E17FFF218AFFC100C4EBCD /* HLListModel.m */; };
 		70E18003218B043E00C4EBCD /* HLLIstTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E18002218B043E00C4EBCD /* HLLIstTableViewModel.m */; };
 		70E18005218B0ABF00C4EBCD /* Head_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70E18004218B0ABF00C4EBCD /* Head_12.jpg */; };
+=======
+		FE04DA8E218A9150007A7C81 /* WSCloudIntViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */; };
+		FE04DA94218A9822007A7C81 /* WSClodeIntTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */; };
+		FE83EDC12188848A00886B46 /* CommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE83EDC02188848A00886B46 /* CommonClass.m */; };
+		FEB143F5218ADCF900221572 /* CloudeDatSouProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */; };
+		FEB143F9218AEE2600221572 /* CloudeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143F8218AEE2600221572 /* CloudeModel.m */; };
+		FEB143FC218B09F400221572 /* AddContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB143FB218B09F400221572 /* AddContentView.m */; };
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 		FECE07E82182A58D00397BA1 /* PerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07E72182A58D00397BA1 /* PerInfoViewController.m */; };
 		FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07EC2182AD3600397BA1 /* PeoInfoView.m */; };
 		FECE07F12182B1F100397BA1 /* PerIntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07F02182B1F100397BA1 /* PerIntegralViewController.m */; };
@@ -89,6 +99,7 @@
 		3E6058BD2182F2EC006454E3 /* HLNewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsTableViewCell.h; sourceTree = "<group>"; };
 		3E6058C22182F358006454E3 /* HLNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLNewsModel.h; sourceTree = "<group>"; };
 		3E6058C32182F358006454E3 /* HLNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLNewsModel.m; sourceTree = "<group>"; };
+		3E6058C52183F5CB006454E3 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		48A0F76B94AF2BB611ABD534 /* Pods-党建e家.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.debug.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.debug.xcconfig"; sourceTree = "<group>"; };
 		7013A7F3218176370034BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7013A7F5218177080034BA8F /* party_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party_red.png; sourceTree = "<group>"; };
@@ -142,6 +153,7 @@
 		708E56F82181F75C00893311 /* MyDjContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDjContentView.m; sourceTree = "<group>"; };
 		708E56FB2181F75C00893311 /* MyDjContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDjContentView.h; sourceTree = "<group>"; };
 		708E56FC2181F75C00893311 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		708E57002181F77A00893311 /* UILabel+WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WSLabel.h"; sourceTree = "<group>"; };
 		708E57012181F77A00893311 /* UILabel+WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WSLabel.m"; sourceTree = "<group>"; };
 		70E17FD8218A8A8100C4EBCD /* HLDemocraticIndexVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLDemocraticIndexVC.h; sourceTree = "<group>"; };
@@ -169,8 +181,22 @@
 		70E18001218B043E00C4EBCD /* HLLIstTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLIstTableViewModel.h; sourceTree = "<group>"; };
 		70E18002218B043E00C4EBCD /* HLLIstTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLIstTableViewModel.m; sourceTree = "<group>"; };
 		70E18004218B0ABF00C4EBCD /* Head_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Head_12.jpg; sourceTree = "<group>"; };
+=======
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 		86BE6AC6A3B965D83B274F70 /* Pods-党建e家.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-党建e家.release.xcconfig"; path = "Pods/Target Support Files/Pods-党建e家/Pods-党建e家.release.xcconfig"; sourceTree = "<group>"; };
 		890AF5881B3239055776D914 /* libPods-党建e家.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-党建e家.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE04DA8B218A914F007A7C81 /* WSCloudIntViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCloudIntViewController.h; sourceTree = "<group>"; };
+		FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCloudIntViewController.m; sourceTree = "<group>"; };
+		FE04DA92218A9822007A7C81 /* WSClodeIntTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSClodeIntTableViewCell.h; sourceTree = "<group>"; };
+		FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSClodeIntTableViewCell.m; sourceTree = "<group>"; };
+		FE83EDBF2188848A00886B46 /* CommonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonClass.h; sourceTree = "<group>"; };
+		FE83EDC02188848A00886B46 /* CommonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonClass.m; sourceTree = "<group>"; };
+		FEB143F3218ADCF900221572 /* CloudeDatSouProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudeDatSouProtocol.h; sourceTree = "<group>"; };
+		FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudeDatSouProtocol.m; sourceTree = "<group>"; };
+		FEB143F7218AEE2600221572 /* CloudeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudeModel.h; sourceTree = "<group>"; };
+		FEB143F8218AEE2600221572 /* CloudeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudeModel.m; sourceTree = "<group>"; };
+		FEB143FA218B09F400221572 /* AddContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddContentView.h; sourceTree = "<group>"; };
+		FEB143FB218B09F400221572 /* AddContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddContentView.m; sourceTree = "<group>"; };
 		FECE07E62182A58D00397BA1 /* PerInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerInfoViewController.h; sourceTree = "<group>"; };
 		FECE07E72182A58D00397BA1 /* PerInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerInfoViewController.m; sourceTree = "<group>"; };
 		FECE07EB2182AD3600397BA1 /* PeoInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeoInfoView.h; sourceTree = "<group>"; };
@@ -331,6 +357,7 @@
 				704BA59A2181520700C9703E /* Main.storyboard */,
 				704BA59F2181520800C9703E /* LaunchScreen.storyboard */,
 				704BA5A22181520800C9703E /* Info.plist */,
+				3E6058C52183F5CB006454E3 /* Property List.plist */,
 				704BA5A32181520800C9703E /* main.m */,
 			);
 			path = "党建e家";
@@ -342,6 +369,8 @@
 				701E30E22182021300FEEA81 /* AssignToObject.h */,
 				701E30E12182021300FEEA81 /* AssignToObject.m */,
 				708E56C72181996C00893311 /* CommonDefine.h */,
+				FE83EDBF2188848A00886B46 /* CommonClass.h */,
+				FE83EDC02188848A00886B46 /* CommonClass.m */,
 				708E56C821819FA700893311 /* Category */,
 			);
 			path = Tools;
@@ -429,8 +458,6 @@
 			children = (
 				FECE07FF2182B67A00397BA1 /* HuangQinUITextField.h */,
 				FECE08002182B67A00397BA1 /* HuangQinUITextField.m */,
-				708E57002181F77A00893311 /* UILabel+WSLabel.h */,
-				708E57012181F77A00893311 /* UILabel+WSLabel.m */,
 				708E56EC2181EFD900893311 /* Category.h */,
 				708E56C92181A02800893311 /* UIViewController+UIViewController_Category.h */,
 				708E56CA2181A02800893311 /* UIViewController+UIViewController_Category.m */,
@@ -461,6 +488,12 @@
 		708E56D92181BCA300893311 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				FE04DA89218A914F007A7C81 /* CloudInteraction */,
+				FECE08332183E47700397BA1 /* HLTakePhotoVC */,
+				FECE083A2183E47700397BA1 /* OrganizationalLife */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 				708E56DB2181BCA300893311 /* HLIndexPageViewController.h */,
 				708E56DA2181BCA300893311 /* HLIndexPageViewController.m */,
 				FECE08332183E47700397BA1 /* HLTakePhotoVC */,
@@ -502,6 +535,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		70E17FD5218A88C600C4EBCD /* Democratic appraisal */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,19 +549,48 @@
 			children = (
 				70E17FF4218AFD2000C4EBCD /* PersonageVC */,
 				70E17FF3218AFD1200C4EBCD /* DemocraticVC */,
+=======
+		FE04DA89218A914F007A7C81 /* CloudInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F6218AEE1100221572 /* Model */,
+				FEB143F2218ADC6F00221572 /* DataSoureProtocol */,
+				FE04DA8A218A914F007A7C81 /* Controller */,
+				FE04DA8D218A914F007A7C81 /* View */,
+			);
+			path = CloudInteraction;
+			sourceTree = "<group>";
+		};
+		FE04DA8A218A914F007A7C81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE04DA8B218A914F007A7C81 /* WSCloudIntViewController.h */,
+				FE04DA8C218A914F007A7C81 /* WSCloudIntViewController.m */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		70E17FD7218A88FB00C4EBCD /* View */ = {
 			isa = PBXGroup;
 			children = (
 				70E17FE1218A927200C4EBCD /* HLPersonageView.h */,
 				70E17FE2218A927200C4EBCD /* HLPersonageView.m */,
+=======
+		FE04DA8D218A914F007A7C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE04DA92218A9822007A7C81 /* WSClodeIntTableViewCell.h */,
+				FE04DA93218A9822007A7C81 /* WSClodeIntTableViewCell.m */,
+				FEB143FA218B09F400221572 /* AddContentView.h */,
+				FEB143FB218B09F400221572 /* AddContentView.m */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		70E17FF3218AFD1200C4EBCD /* DemocraticVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,10 +637,27 @@
 				70E17FF0218AE05600C4EBCD /* HLBranchListModel.m */,
 				70E17FFE218AFFC100C4EBCD /* HLListModel.h */,
 				70E17FFF218AFFC100C4EBCD /* HLListModel.m */,
+=======
+		FEB143F2218ADC6F00221572 /* DataSoureProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F3218ADCF900221572 /* CloudeDatSouProtocol.h */,
+				FEB143F4218ADCF900221572 /* CloudeDatSouProtocol.m */,
+			);
+			path = DataSoureProtocol;
+			sourceTree = "<group>";
+		};
+		FEB143F6218AEE1100221572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEB143F7218AEE2600221572 /* CloudeModel.h */,
+				FEB143F8218AEE2600221572 /* CloudeModel.m */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		70E17FFA218AFE5700C4EBCD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,6 +669,8 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 		FECE07E42182A43000397BA1 /* PerInfoController */ = {
 			isa = PBXGroup;
 			children = (
@@ -818,6 +900,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6058C62183F5CB006454E3 /* Property List.plist in Resources */,
 				701E30D82181FA3300FEEA81 /* 登录框.png in Resources */,
 				7013A800218177080034BA8F /* vip_gray.png in Resources */,
 				704BA5A12181520800C9703E /* LaunchScreen.storyboard in Resources */,
@@ -885,13 +968,17 @@
 				FECE085B2184608200397BA1 /* GradeDetailModel.m in Sources */,
 				FECE07ED2182AD3600397BA1 /* PeoInfoView.m in Sources */,
 				701E30E0218200D700FEEA81 /* HLBannerModel.m in Sources */,
+				FE04DA94218A9822007A7C81 /* WSClodeIntTableViewCell.m in Sources */,
 				FECE0854218442C200397BA1 /* TableViewDataSource.m in Sources */,
 				3E6058C12182F2EC006454E3 /* HLNewsTableViewCell.m in Sources */,
 				70E17FE6218A94BB00C4EBCD /* HLDemocraticView.m in Sources */,
 				701E30DC2181FE7800FEEA81 /* HLBannerViewModel.m in Sources */,
+<<<<<<< HEAD
 				70E17FF1218AE05600C4EBCD /* HLBranchListModel.m in Sources */,
 				70E17FED218ADE5700C4EBCD /* HLDemocraticViewModel.m in Sources */,
 				708E57022181F77A00893311 /* UILabel+WSLabel.m in Sources */,
+=======
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 				708E56D82181BC9B00893311 /* HLMyDJViewController.m in Sources */,
 				708E56F52181F63A00893311 /* SLBannerView.m in Sources */,
 				70E17FF7218AFD5F00C4EBCD /* HLListTableViewVC.m in Sources */,
@@ -903,14 +990,23 @@
 				708E56EB2181EA2A00893311 /* UIButton+UIButton_Category.m in Sources */,
 				704BA5A42181520800C9703E /* main.m in Sources */,
 				704BA8A621816DAE00C9703E /* HLNavigationViewController.m in Sources */,
+<<<<<<< HEAD
 				70E18000218AFFC100C4EBCD /* HLListModel.m in Sources */,
 				70E17FE0218A8AC300C4EBCD /* HLPersonageVC.m in Sources */,
+=======
+				FE04DA8E218A9150007A7C81 /* WSCloudIntViewController.m in Sources */,
+				FEB143F9218AEE2600221572 /* CloudeModel.m in Sources */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 				3E6058BF2182F2EC006454E3 /* HLNewsViewController.m in Sources */,
 				FECE081D2183020500397BA1 /* MyDjHeadView.m in Sources */,
 				FECE07FD2182B43F00397BA1 /* ChangePwdView.m in Sources */,
 				FECE081A218300AA00397BA1 /* PerIntergralView.m in Sources */,
 				FECE08482183F22D00397BA1 /* WSRuleViewModel.m in Sources */,
+<<<<<<< HEAD
 				70E17FE9218AA05900C4EBCD /* HLBtnView.m in Sources */,
+=======
+				FEB143FC218B09F400221572 /* AddContentView.m in Sources */,
+>>>>>>> d1f2c6b9b50dbe300e27d54a386f006edd7b4593
 				FECE08412183E47700397BA1 /* HLTakePhotoViewController.m in Sources */,
 				FECE07F52182B24000397BA1 /* ChangePwdController.m in Sources */,
 				FECE08032182B67B00397BA1 /* HuangQinUITextField.m in Sources */,
@@ -927,9 +1023,11 @@
 				FECE0820218317BE00397BA1 /* RuleView.m in Sources */,
 				FECE07F92182B28400397BA1 /* ChargeViewController.m in Sources */,
 				708E56DC2181BCA300893311 /* HLIndexPageViewController.m in Sources */,
+				FEB143F5218ADCF900221572 /* CloudeDatSouProtocol.m in Sources */,
 				3E6058C02182F2EC006454E3 /* HLDetailNewsViewController.m in Sources */,
 				701E30D22181F9FD00FEEA81 /* LoGinViewController.m in Sources */,
 				FECE08422183E47700397BA1 /* HLTakePhotoCollectionViewCell.m in Sources */,
+				FE83EDC12188848A00886B46 /* CommonClass.m in Sources */,
 				FECE08442183E47700397BA1 /* HLLifeView.m in Sources */,
 				3E6058C42182F358006454E3 /* HLNewsModel.m in Sources */,
 				70E18003218B043E00C4EBCD /* HLLIstTableViewModel.m in Sources */,
@@ -1011,7 +1109,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1064,7 +1162,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1079,10 +1177,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KMBC32K463;
+				DEVELOPMENT_TEAM = 23799A59K5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "党建e家/PrefixHeader.pch";
 				INFOPLIST_FILE = "党建e家/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1101,10 +1200,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KMBC32K463;
+				DEVELOPMENT_TEAM = 23799A59K5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "党建e家/PrefixHeader.pch";
 				INFOPLIST_FILE = "党建e家/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

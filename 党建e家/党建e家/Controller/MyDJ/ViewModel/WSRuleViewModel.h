@@ -14,6 +14,8 @@ typedef void(^WSCallBack)(NSMutableArray* arr);
 
 @interface WSRuleViewModel : NSObject
 
+@property (nonatomic,strong) AFHTTPSessionManager *manager;
+
 //返回积分规则请求的数据(get请求）WS
 -(void)setRuleObj:(WSCallBack)block andStr:(NSString *)str;
 

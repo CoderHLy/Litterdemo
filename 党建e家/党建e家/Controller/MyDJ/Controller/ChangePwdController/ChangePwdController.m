@@ -26,9 +26,13 @@
 //初始化修改密码页面
 -(void)initChangePwdView
 {
-    _changePwdView = [[ChangePwdView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 300)];
+    _changePwdView = [[ChangePwdView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, SCREENHEIGHT)];
+//    _changePwdView.userInteractionEnabled = YES;
+    __weak typeof(self) weakSelf = self;
+    _changePwdView.block = ^(ChangePwdView * _Nonnull myBlock) {
+        [weakSelf.navigationController popViewControllerAnimated:YES];
+    };
     [self.view addSubview:_changePwdView];
-    
 }
 
 @end

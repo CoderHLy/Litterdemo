@@ -14,8 +14,11 @@
 //约束控件时，不需要再写完整的"MAS.top"语句
 #define MAS_SHORTHAND
 #define MAS_SHORTHAND_GLOBALS
-
+#define setdefaults(object , key) [[NSUserDefaults standardUserDefaults] setObject:object forKey:key];
+#define gaindefaults(key) [[NSUserDefaults standardUserDefaults] objectForKey:key];
 #define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
 #define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height
+//16进制颜色值
+#define WSColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 #endif /* CommonDefine_h */

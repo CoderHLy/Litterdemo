@@ -28,6 +28,7 @@
                        subView:(UIView *)view
 {
     UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = [UIImage imageNamed:imgName];
     [view addSubview:imageView];
     return imageView;

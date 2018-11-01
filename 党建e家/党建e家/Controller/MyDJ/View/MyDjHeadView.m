@@ -7,7 +7,6 @@
 //
 
 #import "MyDjHeadView.h"
-#import "UILabel+WSLabel.h"
 @implementation MyDjHeadView
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -41,8 +40,7 @@
         }];
         
         //用户名label
-        _userNameLab = [UILabel labWithTextAlign:NSTextAlignmentCenter Font:14 bgColor:[UIColor clearColor] Text:@"你还没登录" textColor:[UIColor whiteColor]];
-        [self.backImgView addSubview:_userNameLab];
+        _userNameLab = [UILabel labelWithText:@"你还没登录" alignment:NSTextAlignmentCenter textColor:[UIColor clearColor] font:14 superView:self.backImgView];
         [_userNameLab mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.headImgBtn.bottom).offset(10);
             make.centerX.equalTo(self.centerX);

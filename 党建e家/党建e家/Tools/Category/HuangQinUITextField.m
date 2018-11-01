@@ -18,4 +18,8 @@
     textfile.font = [UIFont systemFontOfSize:13];
     return textfile;
 }
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+{
+    return NO;
+}
 @end
