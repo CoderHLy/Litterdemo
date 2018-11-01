@@ -9,6 +9,7 @@
 #import "HLLifeViewController.h"
 #import "HLLifeView.h"
 #import "HLNewsViewController.h"
+#import "HLDemocraticIndexVC.h"
 @interface HLLifeViewController ()<HLLifeViewDelegate>
 
 @end
@@ -41,7 +42,7 @@
             
             break;
         case 3:
-            
+            [self.navigationController pushViewController:[[HLDemocraticIndexVC alloc] init] animated:YES];
             break;
         case 4:
             

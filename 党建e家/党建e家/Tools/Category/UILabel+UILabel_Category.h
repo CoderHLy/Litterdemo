@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
                 textColor:(UIColor *)color
                      font:(CGFloat)font
                 superView:(UIView *)superView;
+//何龙   弹窗式动画label
++(UILabel *)labelWithText:(NSString *)text
+                superView:(UIView *)superView;
 @end
 
 NS_ASSUME_NONNULL_END

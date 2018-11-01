@@ -25,6 +25,11 @@ NS_ASSUME_NONNULL_BEGIN
                     section:(SEL)action Target:(id)target
               settitlecolor:(UIColor *)titlecorol;
 
++(UIButton *)buttonWithTitle:(NSString *)title
+                      Target:(id)target
+                    selector:(SEL)action
+                   superView:(UIView *)superView;
+
 @end
 
 NS_ASSUME_NONNULL_END

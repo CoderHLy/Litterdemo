@@ -35,5 +35,20 @@ superView:(nonnull UIView *)superView
     [superView addSubview:bnt];
     return bnt;
 }
-
+//何龙
++(UIButton *)buttonWithTitle:(NSString *)title
+                      Target:(id)target
+                    selector:(SEL)action
+                   superView:(nonnull UIView *)superView
+{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:title forState:UIControlStateNormal];
+    btn.titleLabel.textColor = [UIColor whiteColor];
+    btn.backgroundColor = [UIColor redColor];
+    btn.layer.cornerRadius = 6;
+    btn.layer.masksToBounds = YES;
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    [superView addSubview:btn];
+    return btn;
+}
 @end
