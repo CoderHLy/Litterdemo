@@ -15,6 +15,7 @@
 #import "HLDetailNewsViewController.h"
 #import "HLLifeViewController.h"
 #import "HLTakePhotoViewController.h"
+#import "CloudIntViewController.h"
 @interface HLIndexPageViewController ()<SLBannerViewDelegate>
 
 @end
@@ -109,6 +110,7 @@
 {
     HLNewsViewController *vc = [[HLNewsViewController alloc] init];
     HLLifeViewController *lifeVC = [[HLLifeViewController alloc] init];
+    CloudIntViewController *cloudVc = [[CloudIntViewController alloc] init];
     switch (tag) {
         case 0:
             vc.title = @"信工新闻眼";
@@ -118,6 +120,10 @@
         case 1:
             lifeVC.title = @"掌上组织生活";
             [self.navigationController pushViewController:lifeVC animated:YES];
+            break;
+            case 2:
+            cloudVc.title = @"党员云互动";
+            [self.navigationController pushViewController:cloudVc animated:YES];
             break;
         case 3:
             vc.title = @"党建一点通";
